@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roteiros Avalanche — Histórico de Reels</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0b0f;
+  --bg-card: #12141c;
+  --bg-card-hover: #181b26;
+  --bg-glass: rgba(18,20,28,0.85);
+  --border: rgba(255,255,255,0.06);
+  --border-strong: rgba(255,255,255,0.12);
+  --text-hi: #f1f3f7;
+  --text-mid: #9ca3b4;
+  --text-dim: #5a6178;
+  --accent: #3b82f6;
+  --accent-glow: rgba(59,130,246,0.15);
+  --cyan: #06b6d4;
+  --green: #10b981;
+  --orange: #f59e0b;
+  --red: #ef4444;
+  --gold: #fbbf24;
+  --radius: 12px;
+  --font: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:var(--font); background:var(--bg); color:var(--text-hi); min-height:100vh; }
+
+/* Header */
+.header { padding:32px 40px 24px; border-bottom:1px solid var(--border); background:linear-gradient(180deg, rgba(59,130,246,0.04) 0%, transparent 100%); }
+.header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+.logo { display:flex; align-items:center; gap:14px; }
+.logo-icon { width:42px; height:42px; border-radius:10px; background:linear-gradient(135deg, var(--accent), var(--cyan)); display:flex; align-items:center; justify-content:center; font-size:20px; }
+.logo-text { font-size:22px; font-weight:700; letter-spacing:-0.5px; }
+.logo-sub { font-size:13px; color:var(--text-dim); font-weight:400; margin-top:2px; }
+.header-stats { display:flex; gap:24px; }
+.stat { text-align:center; }
+.stat-num { font-size:28px; font-weight:800; color:var(--text-hi); line-height:1; }
+.stat-label { font-size:11px; color:var(--text-dim); text-transform:uppercase; letter-spacing:1px; margin-top:4px; }
+
+/* Filters */
+.filters { display:flex; align-items:center; gap:12px; padding:16px 40px; border-bottom:1px solid var(--border); background:var(--bg-card); }
+.filter-btn { padding:8px 16px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--text-mid); font-size:13px; font-weight:500; cursor:pointer; transition:all 0.2s; font-family:var(--font); }
+.filter-btn:hover { border-color:var(--accent); color:var(--accent); }
+.filter-btn.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+.filter-status { margin-left:auto; display:flex; gap:8px; }
+.search-box { padding:8px 14px; border-radius:8px; border:1px solid var(--border); background:var(--bg); color:var(--text-hi); font-size:13px; width:220px; outline:none; font-family:var(--font); }
+.search-box:focus { border-color:var(--accent); }
+.search-box::placeholder { color:var(--text-dim); }
+
+/* Main */
+.main { padding:24px 40px; max-width:1200px; margin:0 auto; }
+
+/* Roteiro Card */
+.roteiro-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); margin-bottom:16px; overflow:hidden; transition:all 0.2s; }
+.roteiro-card:hover { border-color:var(--border-strong); background:var(--bg-card-hover); }
+.roteiro-header { display:flex; align-items:center; padding:20px 24px; cursor:pointer; gap:16px; }
+.roteiro-date { font-family:var(--mono); font-size:14px; color:var(--cyan); font-weight:500; min-width:100px; }
+.roteiro-title { flex:1; font-size:15px; font-weight:600; color:var(--text-hi); line-height:1.4; }
+.roteiro-meta { display:flex; align-items:center; gap:12px; }
+.roteiro-fonte { font-size:12px; color:var(--text-dim); max-width:150px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.roteiro-badge { padding:4px 10px; border-radius:6px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; }
+.badge-pendente { background:rgba(245,158,11,0.12); color:var(--orange); border:1px solid rgba(245,158,11,0.2); }
+.badge-gravado { background:rgba(16,185,129,0.12); color:var(--green); border:1px solid rgba(16,185,129,0.2); }
+.roteiro-metrics { display:flex; gap:16px; font-size:12px; color:var(--text-dim); }
+.roteiro-metrics span { display:flex; align-items:center; gap:4px; }
+.roteiro-chevron { color:var(--text-dim); transition:transform 0.2s; font-size:18px; }
+.roteiro-card.open .roteiro-chevron { transform:rotate(180deg); }
+
+/* Roteiro Body */
+.roteiro-body { display:none; border-top:1px solid var(--border); }
+.roteiro-card.open .roteiro-body { display:block; }
+
+.roteiro-tabs { display:flex; border-bottom:1px solid var(--border); padding:0 24px; }
+.roteiro-tab { padding:12px 16px; font-size:13px; font-weight:500; color:var(--text-dim); cursor:pointer; border-bottom:2px solid transparent; transition:all 0.2s; }
+.roteiro-tab:hover { color:var(--text-mid); }
+.roteiro-tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+
+.roteiro-content { padding:24px; }
+
+/* Atos */
+.ato { margin-bottom:20px; }
+.ato-header { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+.ato-num { width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg, var(--accent), var(--cyan)); color:#fff; font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.ato-title { font-size:13px; font-weight:600; color:var(--cyan); text-transform:uppercase; letter-spacing:0.5px; }
+.ato-dir { font-size:12px; color:var(--text-dim); font-style:italic; margin-left:8px; }
+.ato-text { font-size:14px; line-height:1.8; color:var(--text-mid); padding-left:38px; }
+
+/* Teleprompter */
+.teleprompter-text { font-size:18px; line-height:2; color:var(--text-hi); white-space:pre-wrap; font-weight:400; }
+
+/* Actions */
+.roteiro-actions { display:flex; gap:8px; padding:16px 24px; border-top:1px solid var(--border); }
+.action-btn { padding:8px 16px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--text-mid); font-size:13px; font-weight:500; cursor:pointer; display:flex; align-items:center; gap:6px; transition:all 0.2s; font-family:var(--font); }
+.action-btn:hover { border-color:var(--accent); color:var(--accent); }
+.action-btn.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+.action-btn.primary:hover { filter:brightness(1.15); }
+
+/* Empty state */
+.empty { text-align:center; padding:80px 20px; color:var(--text-dim); }
+.empty-icon { font-size:48px; margin-bottom:16px; }
+.empty-text { font-size:16px; }
+
+/* Toast */
+.toast { position:fixed; bottom:24px; right:24px; background:var(--green); color:#fff; padding:12px 20px; border-radius:8px; font-size:14px; font-weight:500; opacity:0; transform:translateY(10px); transition:all 0.3s; z-index:999; pointer-events:none; }
+.toast.show { opacity:1; transform:translateY(0); }
+
+/* Responsive */
+@media(max-width:768px) {
+  .header, .filters, .main { padding-left:16px; padding-right:16px; }
+  .header-top { flex-direction:column; align-items:flex-start; gap:16px; }
+  .roteiro-header { flex-wrap:wrap; padding:16px; }
+  .roteiro-meta { width:100%; justify-content:space-between; margin-top:8px; }
+  .roteiro-metrics { display:none; }
+  .search-box { width:100%; }
+  .filters { flex-wrap:wrap; }
+  .teleprompter-text { font-size:16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div class="logo">
+      <div class="logo-icon">🎬</div>
+      <div>
+        <div class="logo-text">Roteiros Avalanche</div>
+        <div class="logo-sub">Histórico de Roteiros de Reels • Gerado por IA diariamente</div>
+      </div>
+    </div>
+    <div class="header-stats">
+      <div class="stat">
+        <div class="stat-num" id="stat-total">0</div>
+        <div class="stat-label">Roteiros</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="stat-gravados">0</div>
+        <div class="stat-label">Gravados</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="stat-pendentes">0</div>
+        <div class="stat-label">Pendentes</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="filters">
+  <div id="month-filters"></div>
+  <input type="text" class="search-box" id="search" placeholder="Buscar roteiros...">
+  <div class="filter-status">
+    <button class="filter-btn active" data-status="all" onclick="filterStatus('all',this)">Todos</button>
+    <button class="filter-btn" data-status="pendente" onclick="filterStatus('pendente',this)">Pendentes</button>
+    <button class="filter-btn" data-status="gravado" onclick="filterStatus('gravado',this)">Gravados</button>
+  </div>
+</div>
+
+<div class="main" id="roteiros-list"></div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let roteiros = [];
+let currentFilter = 'all';
+let currentMonth = 'all';
+let searchQuery = '';
+
+async function loadRoteiros() {
+  try {
+    const r = await fetch('roteiros.json?t=' + Date.now());
+    roteiros = await r.json();
+    roteiros.sort((a,b) => b.date.localeCompare(a.date));
+    renderStats();
+    renderMonthFilters();
+    renderList();
+  } catch(e) {
+    document.getElementById('roteiros-list').innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div><div class="empty-text">Erro ao carregar roteiros</div></div>';
+  }
+}
+
+function renderStats() {
+  document.getElementById('stat-total').textContent = roteiros.length;
+  document.getElementById('stat-gravados').textContent = roteiros.filter(r => r.status === 'gravado').length;
+  document.getElementById('stat-pendentes').textContent = roteiros.filter(r => r.status !== 'gravado').length;
+}
+
+function renderMonthFilters() {
+  const months = new Set();
+  roteiros.forEach(r => {
+    const d = new Date(r.date + 'T12:00:00');
+    months.add(d.toLocaleDateString('pt-BR', {month:'long', year:'numeric'}));
+  });
+  let html = '<button class="filter-btn active" onclick="filterMonth(\'all\',this)">Todos</button>';
+  months.forEach(m => {
+    html += '<button class="filter-btn" onclick="filterMonth(\'' + m + '\',this)">' + m.charAt(0).toUpperCase() + m.slice(1) + '</button>';
+  });
+  document.getElementById('month-filters').innerHTML = html;
+}
+
+function filterStatus(status, btn) {
+  currentFilter = status;
+  document.querySelectorAll('.filter-status .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderList();
+}
+
+function filterMonth(month, btn) {
+  currentMonth = month;
+  document.querySelectorAll('#month-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderList();
+}
+
+document.getElementById('search').addEventListener('input', function(e) {
+  searchQuery = e.target.value.toLowerCase();
+  renderList();
+});
+
+function getFiltered() {
+  return roteiros.filter(r => {
+    if (currentFilter !== 'all' && r.status !== currentFilter) return false;
+    if (currentMonth !== 'all') {
+      const d = new Date(r.date + 'T12:00:00');
+      const m = d.toLocaleDateString('pt-BR', {month:'long', year:'numeric'});
+      if (m !== currentMonth) return false;
+    }
+    if (searchQuery) {
+      const s = (r.historia + ' ' + r.roteiro + ' ' + r.fonte).toLowerCase();
+      if (!s.includes(searchQuery)) return false;
+    }
+    return true;
+  });
+}
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  const day = d.getDate().toString().padStart(2,'0');
+  const months = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+  return day + ' ' + months[d.getMonth()];
+}
+
+function formatWeekday(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  return d.toLocaleDateString('pt-BR', {weekday:'short'}).replace('.','');
+}
+
+function parseAtos(roteiro) {
+  const atos = [];
+  const parts = roteiro.split(/\[ATO\s*(\d+)/i);
+  for (let i = 1; i < parts.length; i += 2) {
+    const num = parts[i];
+    let content = parts[i+1] || '';
+    const titleMatch = content.match(/^[^]]*?—\s*([^|[\]]+)/);
+    const dirMatch = content.match(/\|\s*([^\]]+)\]/);
+    const title = titleMatch ? titleMatch[1].trim() : 'ATO ' + num;
+    const dir = dirMatch ? dirMatch[1].trim() : '';
+    const text = content.replace(/^[^\]]*\]\s*/, '').trim();
+    atos.push({num, title, dir, text});
+  }
+  return atos;
+}
+
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function renderList() {
+  const filtered = getFiltered();
+  const list = document.getElementById('roteiros-list');
+
+  if (filtered.length === 0) {
+    list.innerHTML = '<div class="empty"><div class="empty-icon">📝</div><div class="empty-text">Nenhum roteiro encontrado</div></div>';
+    return;
+  }
+
+  let html = '';
+  filtered.forEach((r, i) => {
+    const atos = parseAtos(r.roteiro);
+    const badge = r.status === 'gravado' ? '<span class="roteiro-badge badge-gravado">✓ Gravado</span>' : '<span class="roteiro-badge badge-pendente">Pendente</span>';
+    const m = r.metricas || {};
+
+    let atosHtml = '';
+    atos.forEach(a => {
+      atosHtml += '<div class="ato">'
+        + '<div class="ato-header"><div class="ato-num">' + a.num + '</div><div class="ato-title">' + esc(a.title) + '</div>'
+        + (a.dir ? '<div class="ato-dir">' + esc(a.dir) + '</div>' : '')
+        + '</div>'
+        + '<div class="ato-text">' + esc(a.text) + '</div>'
+        + '</div>';
+    });
+
+    html += '<div class="roteiro-card" id="card-' + i + '">'
+      + '<div class="roteiro-header" onclick="toggleCard(' + i + ')">'
+      + '<div class="roteiro-date"><div style="font-size:11px;color:var(--text-dim)">' + formatWeekday(r.date) + '</div>' + formatDate(r.date) + '</div>'
+      + '<div class="roteiro-title">' + esc(r.historia) + '</div>'
+      + '<div class="roteiro-meta">'
+      + '<div class="roteiro-metrics">'
+      + (m.totalPalavras ? '<span>📝 ' + m.totalPalavras + ' palavras</span>' : '')
+      + (m.duracaoFinal ? '<span>⏱ ' + m.duracaoFinal + '</span>' : '')
+      + '</div>'
+      + badge
+      + '<div class="roteiro-fonte">' + esc(r.fonte) + '</div>'
+      + '<span class="roteiro-chevron">▼</span>'
+      + '</div></div>'
+      + '<div class="roteiro-body">'
+      + '<div class="roteiro-tabs">'
+      + '<div class="roteiro-tab active" onclick="switchTab(this,' + i + ',\'atos\')">7 Atos</div>'
+      + '<div class="roteiro-tab" onclick="switchTab(this,' + i + ',\'teleprompter\')">Teleprompter</div>'
+      + '</div>'
+      + '<div class="roteiro-content" id="content-' + i + '">' + atosHtml + '</div>'
+      + '<div class="roteiro-actions">'
+      + '<button class="action-btn primary" onclick="copyTeleprompter(' + i + ')">📋 Copiar Teleprompter</button>'
+      + '<button class="action-btn" onclick="toggleStatus(' + i + ')">' + (r.status === 'gravado' ? '↩ Marcar Pendente' : '✓ Marcar Gravado') + '</button>'
+      + '<button class="action-btn" onclick="downloadTxt(' + i + ')">💾 Baixar TXT</button>'
+      + '</div>'
+      + '</div></div>';
+  });
+
+  list.innerHTML = html;
+}
+
+function toggleCard(i) {
+  document.getElementById('card-' + i).classList.toggle('open');
+}
+
+function switchTab(tab, i, type) {
+  tab.parentElement.querySelectorAll('.roteiro-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  const r = getFiltered()[i];
+  const content = document.getElementById('content-' + i);
+  if (type === 'teleprompter') {
+    content.innerHTML = '<div class="teleprompter-text">' + esc(r.teleprompter) + '</div>';
+  } else {
+    const atos = parseAtos(r.roteiro);
+    let html = '';
+    atos.forEach(a => {
+      html += '<div class="ato"><div class="ato-header"><div class="ato-num">' + a.num + '</div><div class="ato-title">' + esc(a.title) + '</div>' + (a.dir ? '<div class="ato-dir">' + esc(a.dir) + '</div>' : '') + '</div><div class="ato-text">' + esc(a.text) + '</div></div>';
+    });
+    content.innerHTML = html;
+  }
+}
+
+function copyTeleprompter(i) {
+  const r = getFiltered()[i];
+  navigator.clipboard.writeText(r.teleprompter).then(() => showToast('Teleprompter copiado!'));
+}
+
+function toggleStatus(i) {
+  const r = getFiltered()[i];
+  const idx = roteiros.findIndex(x => x.date === r.date);
+  if (idx >= 0) {
+    roteiros[idx].status = roteiros[idx].status === 'gravado' ? 'pendente' : 'gravado';
+    renderStats();
+    renderList();
+    showToast('Status atualizado!');
+  }
+}
+
+function downloadTxt(i) {
+  const r = getFiltered()[i];
+  const text = 'ROTEIRO DO DIA — ' + r.date + '\n' + r.historia + '\nFonte: ' + r.fonte + '\n\n' + r.roteiro;
+  const blob = new Blob([text], {type:'text/plain'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'roteiro-' + r.date + '.txt';
+  a.click();
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+loadRoteiros();
+</script>
+</body>
+</html>
