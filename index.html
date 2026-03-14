@@ -315,11 +315,30 @@ function fmtDate(s){const d=new Date(s+'T12:00:00');const ms=['jan','fev','mar',
 function fmtWeek(s){return new Date(s+'T12:00:00').toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','');}
 
 function parseAtos(rot){
-  const atos=[], parts=rot.split(/\[ATO\s*(\d+)/i);
+  const atos=[];
+  // Try bracket format first: [ATO 1 — TITLE | dir]
+  let parts=rot.split(/\[ATO\s*(\d+)/i);
+  if(parts.length>1){
+    for(let i=1;i<parts.length;i+=2){
+      const num=parts[i]; let c=parts[i+1]||'';
+      const tm=c.match(/^[^]*?—\s*([^|[\]]+)/), dm=c.match(/\|\s*([^\]]+)\]/);
+      atos.push({num,title:tm?tm[1].trim():'ATO '+num,dir:dm?dm[1].trim():'',text:c.replace(/^[^\]]*\]\s*/,'').trim()});
+    }
+    return atos;
+  }
+  // Fallback: ATO 1 — TITLE (no brackets)
+  parts=rot.split(/^ATO\s+(\d+)\s*[—\-]\s*/im);
   for(let i=1;i<parts.length;i+=2){
     const num=parts[i]; let c=parts[i+1]||'';
-    const tm=c.match(/^[^]*?—\s*([^|[\]]+)/), dm=c.match(/\|\s*([^\]]+)\]/);
-    atos.push({num,title:tm?tm[1].trim():'ATO '+num,dir:dm?dm[1].trim():'',text:c.replace(/^[^\]]*\]\s*/,'').trim()});
+    const lines=c.split('\n');
+    const title=lines[0]?lines[0].trim():'ATO '+num;
+    let dir='', textStart=1;
+    if(lines[1]&&lines[1].trim().startsWith('[')){
+      dir=lines[1].trim().replace(/^\[|\]$/g,'');
+      textStart=2;
+    }
+    const text=lines.slice(textStart).join('\n').trim();
+    atos.push({num,title,dir,text});
   }
   return atos;
 }
