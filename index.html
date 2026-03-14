@@ -108,6 +108,7 @@ body { font-family:var(--font); background:var(--bg); color:var(--text-hi); min-
 .roteiro-badge { padding:3px 8px; border-radius:6px; font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:0.4px; }
 .badge-pendente { background:rgba(245,158,11,0.12); color:var(--orange); border:1px solid rgba(245,158,11,0.2); }
 .badge-gravado { background:rgba(16,185,129,0.12); color:var(--green); border:1px solid rgba(16,185,129,0.2); }
+.badge-agent { padding:3px 8px; border-radius:6px; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.6px; background:rgba(139,92,246,0.12); color:#a78bfa; border:1px solid rgba(139,92,246,0.25); font-family:var(--mono); }
 .roteiro-title { font-size:14px; font-weight:600; color:var(--text-hi); line-height:1.45; }
 .roteiro-footer { display:flex; align-items:center; justify-content:space-between; gap:8px; }
 .roteiro-meta-row { display:flex; gap:12px; font-size:11px; color:var(--text-dim); }
@@ -332,6 +333,7 @@ function renderList(){
   f.forEach((r,i)=>{
     const atos=parseAtos(r.roteiro);
     const badge=r.status==='gravado'?'<span class="roteiro-badge badge-gravado">✓ Gravado</span>':'<span class="roteiro-badge badge-pendente">Pendente</span>';
+    const agentBadge=r.agent?'<span class="roteiro-badge badge-agent">'+esc(r.agent)+'</span>':'';
     const m=r.metricas||{};
     let ah='';
     atos.forEach(a=>{ah+='<div class="ato"><div class="ato-header"><div class="ato-num">'+a.num+'</div><div class="ato-title">'+esc(a.title)+'</div>'+(a.dir?'<div class="ato-dir">'+esc(a.dir)+'</div>':'')+'</div><div class="ato-text">'+esc(a.text)+'</div></div>';});
@@ -339,7 +341,7 @@ function renderList(){
       +'<div class="roteiro-header" onclick="toggleCard('+i+')">'
       +'<div class="roteiro-header-top">'
       +'<div class="roteiro-date"><span class="roteiro-weekday">'+fmtWeek(r.date)+'</span> '+fmtDate(r.date)+'</div>'
-      +badge
+      +agentBadge+badge
       +'</div>'
       +'<div class="roteiro-title">'+esc(r.historia)+'</div>'
       +'<div class="roteiro-footer">'
