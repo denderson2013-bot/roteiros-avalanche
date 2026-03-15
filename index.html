@@ -306,7 +306,8 @@ function getFiltered(){
   return roteiros.filter(r=>{
     if(currentFilter!=='all'&&r.status!==currentFilter)return false;
     if(currentMonth!=='all'){const d=new Date(r.date+'T12:00:00');if(d.toLocaleDateString('pt-BR',{month:'short',year:'numeric'})!==currentMonth)return false;}
-    if(searchQuery&&!(r.historia+' '+r.roteiro+' '+r.fonte).toLowerCase().includes(searchQuery))return false;
+    const rotText=typeof r.roteiro==='object'?Object.values(r.roteiro).join(' '):r.roteiro;
+    if(searchQuery&&!(r.historia+' '+rotText+' '+r.fonte).toLowerCase().includes(searchQuery))return false;
     return true;
   });
 }
@@ -316,7 +317,19 @@ function fmtWeek(s){return new Date(s+'T12:00:00').toLocaleDateString('pt-BR',{w
 
 function parseAtos(rot){
   const atos=[];
-  // Try bracket format first: [ATO 1 — TITLE | dir]
+  // Object format: {ato1_gancho:'...', ato2_contexto:'...', ...}
+  if(typeof rot==='object'&&rot!==null){
+    const labels={gancho:'GANCHO',contexto:'CONTEXTO',conflito:'CONFLITO',virada:'VIRADA',expansao:'EXPANSÃO',cta:'CTA',encerramento:'ENCERRAMENTO'};
+    const keys=Object.keys(rot).filter(k=>k.startsWith('ato')).sort();
+    keys.forEach((k,i)=>{
+      const m=k.match(/ato(\d+)_(\w+)/);
+      const num=m?m[1]:String(i+1);
+      const title=m?labels[m[2]]||m[2].toUpperCase():'ATO '+num;
+      atos.push({num,title,dir:'',text:rot[k]});
+    });
+    return atos;
+  }
+  // String format: try bracket format first: [ATO 1 — TITLE | dir]
   let parts=rot.split(/\[ATO\s*(\d+)/i);
   if(parts.length>1){
     for(let i=1;i<parts.length;i+=2){
@@ -400,7 +413,7 @@ function copyTP(i){const r=getFiltered()[i];navigator.clipboard.writeText(r.tele
 
 function toggleSt(i){const r=getFiltered()[i];const idx=roteiros.findIndex(x=>x.date===r.date);if(idx>=0){roteiros[idx].status=roteiros[idx].status==='gravado'?'pendente':'gravado';renderStats();renderList();showToast(roteiros[idx].status==='gravado'?'✅ Marcado como gravado':'⏳ Marcado como pendente');}}
 
-function dlTxt(i){const r=getFiltered()[i];const t='ROTEIRO — '+r.date+'\n'+r.historia+'\nFonte: '+r.fonte+'\n\n'+r.roteiro;const b=new Blob([t],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='roteiro-'+r.date+'.txt';a.click();}
+function dlTxt(i){const r=getFiltered()[i];const rotText=typeof r.roteiro==='object'?Object.entries(r.roteiro).map(([k,v])=>k.toUpperCase()+'\n'+v).join('\n\n'):r.roteiro;const t='ROTEIRO — '+r.date+'\n'+r.historia+'\nFonte: '+r.fonte+'\n\n'+rotText;const b=new Blob([t],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='roteiro-'+r.date+'.txt';a.click();}
 
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
 
