@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-03-15",
+    "agent": "K8",
+    "historia": "45 mil demissões em tech em 2026: Block corta 40% e CEO diz que IA permite equipes menores",
+    "fonte": "NetworkWorld / Digital Journal",
+    "roteiro": {
+      "ato1_gancho": "Quarenta e cinco mil pessoas demitidas em tech só nesse começo de 2026. E uma empresa cortou 40% do time inteiro de uma vez. Sabe o que o CEO falou? Que a IA permite que equipes menores façam mais. Isso não é manchete de jornal. Isso tá acontecendo agora.",
+      "ato2_contexto": "A Block, que é dona do Square e do Cash App, mandou embora 4 mil pessoas. A WiseTech cortou 2 mil. A Oracle tá planejando até 45 mil demissões ligadas a automação. E o pior? Essas empresas tão lucrando mais do que nunca. Receita recorde no mesmo trimestre em que demitem.",
+      "ato3_conflito": "E olha, não são empresas em crise. São empresas saudáveis, crescendo, batendo meta. O problema é que o trabalho que essas pessoas faziam agora é feito por agente de IA. Atendimento, qualificação, análise, relatório. Tudo automatizado. O profissional que não se adaptou virou custo.",
+      "ato4_virada": "Eu vi isso acontecer de perto. Tem empresa parceira nossa que tinha 37 vendedores. Gastava entre 90 e 120 mil por mês com folha. Sabe quanto desse time era realmente produtivo? 20%. O resto era custo puro. Quando colocaram agentes de IA pra atender, qualificar e agendar 24 horas por dia, a operação não caiu. Ela escalou.",
+      "ato5_expansao": "Hoje, mais de 30 empresas usam esse modelo com a gente. Clínicas, faculdades, escolas, lojas, farmácias. Setores completamente diferentes. E o padrão se repete. O agente de IA não falta. Não atrasa. Não tem dia ruim. Não pede aumento. Ele responde em 3 segundos, de madrugada, no feriado, no domingo.",
+      "ato6_cta": "Se você tem um time comercial e ainda depende de gente pra fazer o primeiro contato, qualificação e agendamento, presta atenção. Esse movimento não vai desacelerar. Vai acelerar. Me manda um direct que eu te mostro como funciona.",
+      "ato7_encerramento": "Enquanto uns estão sendo substituídos pela IA, outros estão usando ela pra escalar. A pergunta é: de que lado você quer estar?"
+    },
+    "teleprompter": "Quarenta e cinco mil pessoas demitidas em tech só nesse começo de 2026. E uma empresa cortou 40% do time inteiro de uma vez. Sabe o que o CEO falou? Que a IA permite que equipes menores façam mais. Isso não é manchete de jornal. Isso tá acontecendo agora.\n\nA Block, que é dona do Square e do Cash App, mandou embora 4 mil pessoas. A WiseTech cortou 2 mil. A Oracle tá planejando até 45 mil demissões ligadas a automação. E o pior? Essas empresas tão lucrando mais do que nunca. Receita recorde no mesmo trimestre em que demitem.\n\nE olha, não são empresas em crise. São empresas saudáveis, crescendo, batendo meta. O problema é que o trabalho que essas pessoas faziam agora é feito por agente de IA. Atendimento, qualificação, análise, relatório. Tudo automatizado. O profissional que não se adaptou virou custo.\n\nEu vi isso acontecer de perto. Tem empresa parceira nossa que tinha 37 vendedores. Gastava entre 90 e 120 mil por mês com folha. Sabe quanto desse time era realmente produtivo? 20%. O resto era custo puro. Quando colocaram agentes de IA pra atender, qualificar e agendar 24 horas por dia, a operação não caiu. Ela escalou.\n\nHoje, mais de 30 empresas usam esse modelo com a gente. Clínicas, faculdades, escolas, lojas, farmácias. Setores completamente diferentes. E o padrão se repete. O agente de IA não falta. Não atrasa. Não tem dia ruim. Não pede aumento. Ele responde em 3 segundos, de madrugada, no feriado, no domingo.\n\nSe você tem um time comercial e ainda depende de gente pra fazer o primeiro contato, qualificação e agendamento, presta atenção. Esse movimento não vai desacelerar. Vai acelerar. Me manda um direct que eu te mostro como funciona.\n\nEnquanto uns estão sendo substituídos pela IA, outros estão usando ela pra escalar. A pergunta é: de que lado você quer estar?",
+    "metricas": {
+      "totalPalavras": 420,
+      "totalFrases": 36,
+      "mediaFrase": 11.7,
+      "duracaoFinal": "1:45 a 2:00"
+    }
+  },
+  {
     "date": "2026-03-14",
     "historia": "Walmart investe US$ 1 bilhão para treinar 1,6 milhão de funcionários em IA",
     "fonte": "Inc. / AI Magazine / Entrepreneur",
