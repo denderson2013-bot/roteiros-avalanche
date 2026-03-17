@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-03-17",
+    "agent": "K8",
+    "historia": "Microsoft lança Copilot Cowork: agentes de IA autônomos que executam tarefas empresariais complexas por horas, sem intervenção humana",
+    "fonte": "CloudWars / Redmond Magazine",
+    "url": "https://cloudwars.com/ai/microsoft-copilot-cowork-marshals-corporate-intelligence-ai-to-execute-complex-tasks/",
+    "roteiro": {
+      "ato1_gancho": "A Microsoft acabou de anunciar uma coisa que muda o jogo pra qualquer empresa. Eles lançaram agentes de IA que trabalham sozinhos por horas. Sem supervisão. Sem parar. Preparando reuniões, criando apresentações, analisando dados. Tudo no piloto automático.",
+      "ato2_contexto": "O nome é Copilot Cowork. A ideia é simples. Você dá uma tarefa pro agente e ele sai executando. Ele lê seus emails, acessa suas reuniões, puxa seus documentos. E entrega tudo pronto. Não é mais um assistente que responde pergunta. É um funcionário digital que executa.",
+      "ato3_conflito": "E aqui tá o ponto que pouca gente tá enxergando. Quanto tempo sua equipe gasta preparando reunião? Montando relatório? Organizando informação que já existe em algum lugar? Horas. Dias. Semanas inteiras jogadas fora com trabalho que uma máquina faz melhor e mais rápido.",
+      "ato4_virada": "Isso não é teoria. Tem empresa que já vive essa realidade. Uma operação que antes precisava de 37 vendedores, custava entre 90 e 120 mil reais por mês. Só 20% deles realmente produziam. Hoje, agentes de IA fazem o atendimento 24 horas, qualificam leads, agendam reuniões. A folha caiu 80%. A performance subiu.",
+      "ato5_expansao": "E não é um caso isolado. Mais de 30 empresas já operam assim. Educação, clínicas, farmácias, faculdades, lojas. Setores completamente diferentes, todos usando agentes de IA no lugar de processos manuais. A Microsoft agora tá oficializando isso pras maiores empresas do planeta. Quem tá pequeno e já usa, tá na frente.",
+      "ato6_cta": "Se você tem um negócio e ainda depende 100% de gente pra cada tarefa operacional, presta atenção. Não é sobre demitir ninguém. É sobre parar de desperdiçar talento humano com trabalho repetitivo. Me segue aqui que eu vou mostrar como montar essa estrutura.",
+      "ato7_encerramento": "O futuro do trabalho não tá chegando. Ele já tá sentado na sua cadeira."
+    },
+    "teleprompter": "A Microsoft acabou de anunciar uma coisa que muda o jogo pra qualquer empresa. Eles lançaram agentes de IA que trabalham sozinhos por horas. Sem supervisão. Sem parar. Preparando reuniões, criando apresentações, analisando dados. Tudo no piloto automático.\n\nO nome é Copilot Cowork. A ideia é simples. Você dá uma tarefa pro agente e ele sai executando. Ele lê seus emails, acessa suas reuniões, puxa seus documentos. E entrega tudo pronto. Não é mais um assistente que responde pergunta. É um funcionário digital que executa.\n\nE aqui tá o ponto que pouca gente tá enxergando. Quanto tempo sua equipe gasta preparando reunião? Montando relatório? Organizando informação que já existe em algum lugar? Horas. Dias. Semanas inteiras jogadas fora com trabalho que uma máquina faz melhor e mais rápido.\n\nIsso não é teoria. Tem empresa que já vive essa realidade. Uma operação que antes precisava de 37 vendedores, custava entre 90 e 120 mil reais por mês. Só 20% deles realmente produziam. Hoje, agentes de IA fazem o atendimento 24 horas, qualificam leads, agendam reuniões. A folha caiu 80%. A performance subiu.\n\nE não é um caso isolado. Mais de 30 empresas já operam assim. Educação, clínicas, farmácias, faculdades, lojas. Setores completamente diferentes, todos usando agentes de IA no lugar de processos manuais. A Microsoft agora tá oficializando isso pras maiores empresas do planeta. Quem tá pequeno e já usa, tá na frente.\n\nSe você tem um negócio e ainda depende 100% de gente pra cada tarefa operacional, presta atenção. Não é sobre demitir ninguém. É sobre parar de desperdiçar talento humano com trabalho repetitivo. Me segue aqui que eu vou mostrar como montar essa estrutura.\n\nO futuro do trabalho não tá chegando. Ele já tá sentado na sua cadeira.",
+    "metricas": {
+      "totalPalavras": 418,
+      "totalFrases": 35,
+      "mediaFrase": 11.9,
+      "duracaoFinal": "1:45"
+    }
+  },
+  {
     "date": "2026-03-16",
     "historia": "NVIDIA GTC 2026 abre hoje e Jensen Huang revela que empresas vão gastar US$600 bilhões em IA este ano. O futuro não é chatbot, é IA que opera no mundo real.",
     "fonte": "NVIDIA GTC / Goldman Sachs / Gartner",
