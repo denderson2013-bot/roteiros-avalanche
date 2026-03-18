@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-03-18",
+    "agent": "K8",
+    "historia": "Meta planeja demitir 20% dos funcionários (16 mil pessoas) para financiar investimento de US$135 bilhões em infraestrutura de IA",
+    "fonte": "DataCentre Magazine / Morningstar",
+    "url": "https://datacentremagazine.com/news/meta-plans-to-lay-off-20-percent-of-employees",
+    "roteiro": {
+      "ato1_gancho": "Dezesseis mil pessoas. Esse é o número que o Zuckerberg tá prestes a cortar da Meta. Não por crise. Não por prejuízo. Pra investir cento e trinta e cinco bilhões de dólares em inteligência artificial. Fica comigo que esse assunto te interessa.",
+      "ato2_contexto": "Saiu agora essa semana. A Meta tá planejando demitir até vinte por cento da empresa inteira. Estamos falando de uma das maiores empresas de tecnologia do planeta. Dona do WhatsApp, Instagram, Facebook. E o motivo não é que a empresa tá indo mal. Pelo contrário. Eles querem redirecionar toda essa verba de salário pra construir data centers de IA.",
+      "ato3_conflito": "E aqui que o jogo fica sério. Se uma empresa que fatura duzentos bilhões por ano tá dizendo que prefere investir em agentes de IA do que manter dezesseis mil funcionários, o que isso significa pro pequeno e médio empresário? Significa que o custo de não automatizar ficou alto demais. Quem ainda opera no modelo antigo, com time inchado fazendo tarefa repetitiva, tá pagando caro pra entregar pouco.",
+      "ato4_virada": "Eu vi isso acontecer na prática. Tinha empresa com trinta e sete vendedores. Folha de noventa a cento e vinte mil por mês. Sabe quantos realmente produziam? Vinte por cento. Os outros oitenta por cento eram custo puro. Quando essa empresa colocou agentes de IA no atendimento, o cenário mudou completamente. Atendimento vinte e quatro horas. Sem falta. Sem atraso. Sem hora extra. Reduziu oitenta por cento da folha e a performance melhorou.",
+      "ato5_expansao": "E não é caso isolado. Hoje são mais de trinta empresas usando essa tecnologia. Educação, clínicas, farmácias, faculdades, lojas. Cada setor diferente, mas o resultado é o mesmo. A IA não fica doente, não pede demissão na sexta feira, não chega atrasada. E a pesquisa de hoje confirma: trinta e sete por cento das empresas no mundo vão substituir funções humanas por IA até dezembro desse ano. Não é previsão de futuro. Tá acontecendo agora.",
+      "ato6_cta": "Se você é dono de negócio e ainda não começou a colocar IA na sua operação, o momento é agora. Não amanhã, não mês que vem. Me segue aqui que eu mostro como empresas reais estão fazendo isso todos os dias.",
+      "ato7_encerramento": "O Zuckerberg trocou dezesseis mil pessoas por inteligência artificial. A pergunta é: você vai implementar ou vai ser substituído?"
+    },
+    "teleprompter": "Dezesseis mil pessoas. Esse é o número que o Zuckerberg tá prestes a cortar da Meta. Não por crise. Não por prejuízo. Pra investir cento e trinta e cinco bilhões de dólares em inteligência artificial. Fica comigo que esse assunto te interessa.\n\nSaiu agora essa semana. A Meta tá planejando demitir até vinte por cento da empresa inteira. Estamos falando de uma das maiores empresas de tecnologia do planeta. Dona do WhatsApp, Instagram, Facebook. E o motivo não é que a empresa tá indo mal. Pelo contrário. Eles querem redirecionar toda essa verba de salário pra construir data centers de IA.\n\nE aqui que o jogo fica sério. Se uma empresa que fatura duzentos bilhões por ano tá dizendo que prefere investir em agentes de IA do que manter dezesseis mil funcionários, o que isso significa pro pequeno e médio empresário? Significa que o custo de não automatizar ficou alto demais. Quem ainda opera no modelo antigo, com time inchado fazendo tarefa repetitiva, tá pagando caro pra entregar pouco.\n\nEu vi isso acontecer na prática. Tinha empresa com trinta e sete vendedores. Folha de noventa a cento e vinte mil por mês. Sabe quantos realmente produziam? Vinte por cento. Os outros oitenta por cento eram custo puro. Quando essa empresa colocou agentes de IA no atendimento, o cenário mudou completamente. Atendimento vinte e quatro horas. Sem falta. Sem atraso. Sem hora extra. Reduziu oitenta por cento da folha e a performance melhorou.\n\nE não é caso isolado. Hoje são mais de trinta empresas usando essa tecnologia. Educação, clínicas, farmácias, faculdades, lojas. Cada setor diferente, mas o resultado é o mesmo. A IA não fica doente, não pede demissão na sexta feira, não chega atrasada. E a pesquisa de hoje confirma: trinta e sete por cento das empresas no mundo vão substituir funções humanas por IA até dezembro desse ano. Não é previsão de futuro. Tá acontecendo agora.\n\nSe você é dono de negócio e ainda não começou a colocar IA na sua operação, o momento é agora. Não amanhã, não mês que vem. Me segue aqui que eu mostro como empresas reais estão fazendo isso todos os dias.\n\nO Zuckerberg trocou dezesseis mil pessoas por inteligência artificial. A pergunta é: você vai implementar ou vai ser substituído?",
+    "metricas": {
+      "totalPalavras": 438,
+      "totalFrases": 35,
+      "mediaFrase": 12.5,
+      "duracaoFinal": "1:50"
+    }
+  },
+  {
     "date": "2026-03-17",
     "agent": "K4",
     "historia": "Mastercard lança CFO Virtual com IA para pequenas empresas: a era dos agentes executivos chegou",
