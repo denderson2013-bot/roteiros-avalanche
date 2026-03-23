@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-03-23",
+    "agent": "K8",
+    "historia": "IBM reduz tarefas de 45 minutos para poucos minutos com agentes de IA supervisionados por dashboard em tempo real. A divisão de consulting já soma US$12,5 bilhões em negócios de IA generativa.",
+    "fonte": "Business Insider",
+    "fonteUrl": "https://www.businessinsider.com/consulting-management-ai-agents-future-ibm-2026-3",
+    "roteiro": {
+      "ato1_gancho": "A IBM acabou de mostrar um número que deveria assustar qualquer empresário que ainda não usa IA. Doze bilhões e meio de dólares. Esse é o tamanho do negócio de IA deles só em consulting. Mas o que me chamou atenção não foi o dinheiro. Foi o que eles fizeram com o tempo.",
+      "ato2_contexto": "Cara, eles pegaram tarefas que levavam 45 minutos cada e reduziram pra poucos minutos. Não com mais gente. Com agentes de IA. E o mais interessante: eles criaram um dashboard em tempo real pra supervisionar esses agentes trabalhando. Tipo um gerente digital olhando a equipe render.",
+      "ato3_conflito": "Agora pensa comigo. Se uma empresa de 350 mil funcionários como a IBM está substituindo processos inteiros por agentes de IA, o que acontece com o empresário que ainda depende de equipe manual pra tudo? O cara que tem 10, 20, 30 funcionários fazendo trabalho repetitivo. Quanto tempo ele está desperdiçando por dia? Quanto dinheiro está queimando?",
+      "ato4_virada": "Eu passei por isso. Tinha 37 vendedores. Gastava entre 90 e 120 mil reais por mês. E sabe qual era a realidade? Só 20% deles eram realmente produtivos. Os outros 80% estavam ali ocupando espaço, custando caro e entregando pouco. Quando implementei agentes de IA no atendimento, o jogo mudou completamente. Atendimento 24 horas, sem falta, sem atraso, sem desculpa.",
+      "ato5_expansao": "Hoje são mais de 30 clientes usando esse modelo. Clínicas, faculdades, lojas, farmácias, escolas. Cada setor diferente, mas o resultado é o mesmo: menos custo operacional, mais velocidade, mais conversão. A IBM fez com 350 mil funcionários. Nós fazemos com empresas de qualquer tamanho. O princípio é o mesmo. IA não substitui pessoas. Substitui ineficiência.",
+      "ato6_cta": "Se você é empresário e ainda não tem agentes de IA trabalhando no seu negócio, você está pagando caro por lentidão. Me chama no direct. Vou te mostrar como funciona na prática.",
+      "ato7_encerramento": "O tempo que você perde hoje é o lucro que outra empresa vai ganhar amanhã."
+    },
+    "teleprompter": "A IBM acabou de mostrar um número que deveria assustar qualquer empresário que ainda não usa IA. Doze bilhões e meio de dólares. Esse é o tamanho do negócio de IA deles só em consulting. Mas o que me chamou atenção não foi o dinheiro. Foi o que eles fizeram com o tempo.\n\nCara, eles pegaram tarefas que levavam 45 minutos cada e reduziram pra poucos minutos. Não com mais gente. Com agentes de IA. E o mais interessante: eles criaram um dashboard em tempo real pra supervisionar esses agentes trabalhando. Tipo um gerente digital olhando a equipe render.\n\nAgora pensa comigo. Se uma empresa de 350 mil funcionários como a IBM está substituindo processos inteiros por agentes de IA, o que acontece com o empresário que ainda depende de equipe manual pra tudo? O cara que tem 10, 20, 30 funcionários fazendo trabalho repetitivo. Quanto tempo ele está desperdiçando por dia? Quanto dinheiro está queimando?\n\nEu passei por isso. Tinha 37 vendedores. Gastava entre 90 e 120 mil reais por mês. E sabe qual era a realidade? Só 20% deles eram realmente produtivos. Os outros 80% estavam ali ocupando espaço, custando caro e entregando pouco. Quando implementei agentes de IA no atendimento, o jogo mudou completamente. Atendimento 24 horas, sem falta, sem atraso, sem desculpa.\n\nHoje são mais de 30 clientes usando esse modelo. Clínicas, faculdades, lojas, farmácias, escolas. Cada setor diferente, mas o resultado é o mesmo: menos custo operacional, mais velocidade, mais conversão. A IBM fez com 350 mil funcionários. Nós fazemos com empresas de qualquer tamanho. O princípio é o mesmo. IA não substitui pessoas. Substitui ineficiência.\n\nSe você é empresário e ainda não tem agentes de IA trabalhando no seu negócio, você está pagando caro por lentidão. Me chama no direct. Vou te mostrar como funciona na prática.\n\nO tempo que você perde hoje é o lucro que outra empresa vai ganhar amanhã.",
+    "metricas": {
+      "totalPalavras": 388,
+      "totalFrases": 30,
+      "mediaFrase": 12.9,
+      "duracaoFinal": "1:55"
+    }
+  },
+  {
     "date": "2026-03-22",
     "agent": "K4",
     "historia": "Meta anuncia que vai substituir moderadores humanos por IA no Facebook e Instagram. Os sistemas já detectam milhares de golpes por dia que humanos não pegavam, reduziram perfis falsos em 80% e dobraram a detecção de conteúdo ilícito com menos erros. Três bilhões de usuários agora moderados por agentes de IA.",
