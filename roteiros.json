@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-03-24",
+    "agent": "K8",
+    "historia": "4 em cada 10 empresas vão substituir cargos por IA até o fim de 2026. Klarna trocou 850 atendentes por chatbot e precisou recontratar humanos.",
+    "fonte": "HR Dive / Tech.co / Forbes",
+    "roteiro": {
+      "ato1_gancho": "Cara, 4 em cada 10 empresas vão substituir funcionários por IA esse ano. Isso não é previsão. É dado. E a maioria vai fazer isso errado.",
+      "ato2_contexto": "Saiu uma pesquisa essa semana mostrando que quase 40% das empresas já planejam trocar posições inteiras por inteligência artificial até dezembro. IBM cortou centenas de vagas de RH. ING, banco europeu, eliminou 950 posições. E a Klarna, aquela fintech gigante, colocou um chatbot pra fazer o trabalho de 850 atendentes de uma vez.",
+      "ato3_conflito": "Só que a Klarna fez errado. Botou IA pra responder tudo, demitiu geral, e a qualidade despencou. Cliente insatisfeito. Atendimento travado nos casos complexos. Resultado? Tiveram que recontratar humanos. A lição? Substituir por substituir não funciona. Se você não sabe montar a operação certa, a IA vira um problema, não uma solução.",
+      "ato4_virada": "E eu falo disso porque vivi na prática. Tinha 37 vendedores numa operação. Folha de 90 a 120 mil por mês. Só que 80% deles não produzia. Trabalhei com IA de um jeito diferente. Criei agentes de SDR que atendem 24 horas, qualificam, agendam e fecham. Não substituí por substituir. Montei o sistema certo. E a folha caiu mais de 80%.",
+      "ato5_expansao": "Hoje, essa tecnologia roda em mais de 30 empresas. Clínicas, faculdades, farmácias, escolas. Cada setor com sua particularidade. E o que todas têm em comum? Não tentaram enfiar IA no lugar de gente sem estratégia. Elas montaram a estrutura antes. E é por isso que funciona.",
+      "ato6_cta": "Se você tem um time comercial e ainda não entendeu que a IA vai mudar esse jogo, presta atenção. Não é sobre demitir todo mundo. É sobre montar o sistema que funciona enquanto você dorme. Se quiser saber como, me chama.",
+      "ato7_encerramento": "4 em cada 10 empresas vão trocar gente por IA esse ano. A pergunta é: você vai ser dos que faz certo ou dos que precisa recontratar?"
+    },
+    "teleprompter": "Cara, 4 em cada 10 empresas vão substituir funcionários por IA esse ano. Isso não é previsão. É dado. E a maioria vai fazer isso errado.\n\nSaiu uma pesquisa essa semana mostrando que quase 40% das empresas já planejam trocar posições inteiras por inteligência artificial até dezembro. IBM cortou centenas de vagas de RH. ING, banco europeu, eliminou 950 posições. E a Klarna, aquela fintech gigante, colocou um chatbot pra fazer o trabalho de 850 atendentes de uma vez.\n\nSó que a Klarna fez errado. Botou IA pra responder tudo, demitiu geral, e a qualidade despencou. Cliente insatisfeito. Atendimento travado nos casos complexos. Resultado? Tiveram que recontratar humanos. A lição? Substituir por substituir não funciona. Se você não sabe montar a operação certa, a IA vira um problema, não uma solução.\n\nE eu falo disso porque vivi na prática. Tinha 37 vendedores numa operação. Folha de 90 a 120 mil por mês. Só que 80% deles não produzia. Trabalhei com IA de um jeito diferente. Criei agentes de SDR que atendem 24 horas, qualificam, agendam e fecham. Não substituí por substituir. Montei o sistema certo. E a folha caiu mais de 80%.\n\nHoje, essa tecnologia roda em mais de 30 empresas. Clínicas, faculdades, farmácias, escolas. Cada setor com sua particularidade. E o que todas têm em comum? Não tentaram enfiar IA no lugar de gente sem estratégia. Elas montaram a estrutura antes. E é por isso que funciona.\n\nSe você tem um time comercial e ainda não entendeu que a IA vai mudar esse jogo, presta atenção. Não é sobre demitir todo mundo. É sobre montar o sistema que funciona enquanto você dorme. Se quiser saber como, me chama.\n\n4 em cada 10 empresas vão trocar gente por IA esse ano. A pergunta é: você vai ser dos que faz certo ou dos que precisa recontratar?",
+    "metricas": {
+      "totalPalavras": 306,
+      "totalFrases": 39,
+      "mediaFrase": 7.8,
+      "duracaoFinal": "2:02"
+    }
+  },
+  {
     "date": "2026-03-23",
     "agent": "K4",
     "historia": "Basis, startup de contabilidade com agentes de IA, foi de zero a unicórnio em 3 anos. Levantou US$100 milhões, vale US$1,15 bilhão e já atende 30% das 25 maiores firmas de contabilidade do mundo. Os agentes funcionam como contadores juniores que nunca dormem, nunca erram e custam uma fração.",
