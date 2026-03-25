@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-03-25",
+    "agent": "K8",
+    "historia": "Demissões por IA viram crise de recontratação: Forbes e Gartner mostram que 50% das empresas que demitiram citando IA vão recontratar até 2027",
+    "fonte": "Forbes - Why Today's AI-Driven Layoffs Are Becoming Tomorrow's Rehiring Crisis",
+    "roteiro": {
+      "ato1_gancho": "Uma empresa demitiu 4 mil funcionários dizendo que a inteligência artificial ia substituir todo mundo. Sabe o que aconteceu depois? Tá recontratando. E não é a única.",
+      "ato2_contexto": "A Forbes publicou uma matéria essa semana mostrando um fenômeno que tá assustando o mercado. Empresas grandes, tipo a Block do Jack Dorsey, cortaram milhares de vagas falando que a IA ia dar conta. Só que a Gartner, que é uma das maiores consultorias do mundo, fez uma previsão. Metade dessas empresas vai recontratar pra funções parecidas até 2027. Metade. Isso tem até nome: crise de recontratação.",
+      "ato3_conflito": "O problema é que essas empresas fizeram do jeito errado. Demitiram em massa sem entender como IA funciona de verdade. Perderam conhecimento que levou anos pra construir. Perderam gente que sabia resolver problema, que entendia o cliente, que fazia o negócio girar. Chamam isso de AI washing. Usam a IA como desculpa pra cortar custo, mas sem estratégia nenhuma.",
+      "ato4_virada": "Tem um caminho completamente diferente. E eu vou te contar o que acontece quando você implementa IA do jeito certo. Tem empresa por aí que mantinha 37 vendedores na folha. Gastava entre 90 e 120 mil reais por mês. Sabe quantos desses 37 realmente vendiam? Menos de 20 por cento. Os outros estavam lá, gerando custo. Quando entrou um agente de IA, treinado, configurado direito, o atendimento passou a funcionar 24 horas. Sem falta, sem atraso, sem dia ruim. A folha caiu mais de 80 por cento. E a performance subiu.",
+      "ato5_expansao": "E isso não é um caso isolado. São mais de 30 empresas usando esse modelo hoje. Faculdade, clínica, farmácia, loja, escola. Setores completamente diferentes. O agente qualifica, agenda, acompanha. Funciona de madrugada, feriado, domingo. Não pede aumento, não falta, não reclama. Só que o detalhe é esse: ninguém foi demitido em massa. A IA entrou pra cobrir o buraco que já existia. Pra fazer o que a equipe não conseguia fazer. É escala inteligente, não corte burro.",
+      "ato6_cta": "Se você tem um time comercial e sabe que metade não entrega resultado, a pergunta não é se vai usar IA. É quando. Porque enquanto você espera, seu concorrente já tá rodando. Comenta aqui se quer entender como funciona na prática.",
+      "ato7_encerramento": "Quem demite sem estratégia, recontrata com prejuízo. Quem implementa IA com inteligência, escala sem olhar pra trás."
+    },
+    "teleprompter": "Uma empresa demitiu 4 mil funcionários dizendo que a inteligência artificial ia substituir todo mundo. Sabe o que aconteceu depois? Tá recontratando. E não é a única.\n\nA Forbes publicou uma matéria essa semana mostrando um fenômeno que tá assustando o mercado. Empresas grandes, tipo a Block do Jack Dorsey, cortaram milhares de vagas falando que a IA ia dar conta. Só que a Gartner, que é uma das maiores consultorias do mundo, fez uma previsão. Metade dessas empresas vai recontratar pra funções parecidas até 2027. Metade. Isso tem até nome: crise de recontratação.\n\nO problema é que essas empresas fizeram do jeito errado. Demitiram em massa sem entender como IA funciona de verdade. Perderam conhecimento que levou anos pra construir. Perderam gente que sabia resolver problema, que entendia o cliente, que fazia o negócio girar. Chamam isso de AI washing. Usam a IA como desculpa pra cortar custo, mas sem estratégia nenhuma.\n\nTem um caminho completamente diferente. E eu vou te contar o que acontece quando você implementa IA do jeito certo. Tem empresa por aí que mantinha 37 vendedores na folha. Gastava entre 90 e 120 mil reais por mês. Sabe quantos desses 37 realmente vendiam? Menos de 20 por cento. Os outros estavam lá, gerando custo. Quando entrou um agente de IA, treinado, configurado direito, o atendimento passou a funcionar 24 horas. Sem falta, sem atraso, sem dia ruim. A folha caiu mais de 80 por cento. E a performance subiu.\n\nE isso não é um caso isolado. São mais de 30 empresas usando esse modelo hoje. Faculdade, clínica, farmácia, loja, escola. Setores completamente diferentes. O agente qualifica, agenda, acompanha. Funciona de madrugada, feriado, domingo. Não pede aumento, não falta, não reclama. Só que o detalhe é esse: ninguém foi demitido em massa. A IA entrou pra cobrir o buraco que já existia. Pra fazer o que a equipe não conseguia fazer. É escala inteligente, não corte burro.\n\nSe você tem um time comercial e sabe que metade não entrega resultado, a pergunta não é se vai usar IA. É quando. Porque enquanto você espera, seu concorrente já tá rodando. Comenta aqui se quer entender como funciona na prática.\n\nQuem demite sem estratégia, recontrata com prejuízo. Quem implementa IA com inteligência, escala sem olhar pra trás.",
+    "metricas": {
+      "totalPalavras": 478,
+      "totalFrases": 42,
+      "mediaFrase": 11.4,
+      "duracaoFinal": "1:55"
+    }
+  },
+  {
     "date": "2026-03-24",
     "agent": "K4",
     "historia": "Atlassian, empresa de US$60 bilhões, demitiu 1.600 funcionários e substituiu o CTO por dois novos líderes focados exclusivamente em IA. Não foi corte de base. Foi reestruturação do topo.",
