@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-03-26",
+    "agent": "K8",
+    "historia": "OpenAI investe US$650M na Isara, startup que coordena milhares de agentes de IA como equipes digitais. O futuro não é um robô genial, é um exército de agentes.",
+    "fonte": "TechMeme / Republic World",
+    "url": "https://www.republicworld.com/tech/what-is-isara-openais-new-650m-love-interest-in-ai-agents",
+    "roteiro": {
+      "ato1_gancho": "A OpenAI acabou de colocar 650 milhões de dólares numa startup que quase ninguém conhece. E o motivo é simples. Eles acreditam que o futuro da inteligência artificial não é um modelo gigante. É um exército de agentes trabalhando juntos.",
+      "ato2_contexto": "A empresa se chama Isara. Fica em São Francisco. Foi fundada em 2025 por dois caras que saíram de dentro do ecossistema da OpenAI. O que eles fizeram? Criaram um sistema que coordena milhares de agentes de IA ao mesmo tempo. Tipo um time digital que se organiza sozinho, cada agente com uma função, se comunicando em tempo real.",
+      "ato3_conflito": "Agora para e pensa comigo. A maioria das empresas ainda tá usando ChatGPT pra responder email. Enquanto isso, a OpenAI tá apostando pesado que o futuro é automação em escala. Não é um assistente. É um batalhão de agentes que funciona 24 horas, sete dias por semana, sem folga, sem desculpa, sem drama.",
+      "ato4_virada": "Eu olho essa notícia e vejo exatamente o que eu vivi na prática. Eu tinha 37 vendedores. Gastava entre 90 e 120 mil por mês. Sabe quantos realmente produziam? 20 por cento. Os outros 80 por cento atrasavam, faltavam, pediam demissão no pior momento possível. Quando coloquei agentes de IA no lugar, mudou tudo. Atendimento 24 horas. Qualificação automática. Custo uma fração do que era antes.",
+      "ato5_expansao": "E não sou só eu. Hoje são mais de 30 empresas usando esse modelo comigo. Clínicas, faculdades, escolas, farmácias, lojas. Cada uma com agentes especializados pro seu nicho. O que a Isara promete em escala global, a gente já faz na prática no Brasil. A diferença é que agora a OpenAI validou essa tese com 650 milhões de dólares.",
+      "ato6_cta": "Se você tem um time comercial caro e improdutivo, a pergunta não é se vale a pena testar agentes de IA. A pergunta é quanto você tá perdendo por não ter testado ainda. Me chama no direct. Eu mostro como funciona na prática, sem enrolação.",
+      "ato7_encerramento": "O futuro do trabalho não é um robô genial. É um exército inteligente. E quem montar esse exército primeiro, ganha."
+    },
+    "teleprompter": "A OpenAI acabou de colocar 650 milhões de dólares numa startup que quase ninguém conhece. E o motivo é simples. Eles acreditam que o futuro da inteligência artificial não é um modelo gigante. É um exército de agentes trabalhando juntos.\n\nA empresa se chama Isara. Fica em São Francisco. Foi fundada em 2025 por dois caras que saíram de dentro do ecossistema da OpenAI. O que eles fizeram? Criaram um sistema que coordena milhares de agentes de IA ao mesmo tempo. Tipo um time digital que se organiza sozinho, cada agente com uma função, se comunicando em tempo real.\n\nAgora para e pensa comigo. A maioria das empresas ainda tá usando ChatGPT pra responder email. Enquanto isso, a OpenAI tá apostando pesado que o futuro é automação em escala. Não é um assistente. É um batalhão de agentes que funciona 24 horas, sete dias por semana, sem folga, sem desculpa, sem drama.\n\nEu olho essa notícia e vejo exatamente o que eu vivi na prática. Eu tinha 37 vendedores. Gastava entre 90 e 120 mil por mês. Sabe quantos realmente produziam? 20 por cento. Os outros 80 por cento atrasavam, faltavam, pediam demissão no pior momento possível. Quando coloquei agentes de IA no lugar, mudou tudo. Atendimento 24 horas. Qualificação automática. Custo uma fração do que era antes.\n\nE não sou só eu. Hoje são mais de 30 empresas usando esse modelo comigo. Clínicas, faculdades, escolas, farmácias, lojas. Cada uma com agentes especializados pro seu nicho. O que a Isara promete em escala global, a gente já faz na prática no Brasil. A diferença é que agora a OpenAI validou essa tese com 650 milhões de dólares.\n\nSe você tem um time comercial caro e improdutivo, a pergunta não é se vale a pena testar agentes de IA. A pergunta é quanto você tá perdendo por não ter testado ainda. Me chama no direct. Eu mostro como funciona na prática, sem enrolação.\n\nO futuro do trabalho não é um robô genial. É um exército inteligente. E quem montar esse exército primeiro, ganha.",
+    "metricas": {
+      "totalPalavras": 418,
+      "totalFrases": 32,
+      "mediaFrase": 13.1,
+      "duracaoFinal": "1:50"
+    }
+  },
+  {
     "date": "2026-03-25",
     "agent": "K4",
     "historia": "Zuckerberg está construindo um agente de IA para exercer funções de CEO da Meta. O CEO de uma empresa de US$1,5 trilhão decidiu que precisa de IA como braço direito operacional.",
