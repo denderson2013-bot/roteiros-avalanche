@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-03-28",
+    "agent": "K8",
+    "historia": "OIT e Banco Mundial publicam relatório projetando que IA generativa vai substituir 25 milhões de empregos ainda em 2026",
+    "fonte": "OIT / Banco Mundial (27 mar 2026)",
+    "roteiro": {
+      "ato1_gancho": "Ontem saiu um relatório que deveria tirar o sono de muito empresário. A Organização Internacional do Trabalho, junto com o Banco Mundial, acabou de cravar: 25 milhões de empregos vão ser substituídos por IA generativa. Não em 2030. Em 2026. Esse ano.",
+      "ato2_contexto": "Cara, não é previsão de guru de internet. É o Banco Mundial falando. A OIT falando. As duas maiores instituições de trabalho e economia do planeta. E o dado mais forte é esse: as funções mais afetadas são administrativas e profissionais. Gente que atende, que vende, que preenche planilha, que manda proposta. Exatamente o que a maioria das empresas depende pra funcionar.",
+      "ato3_conflito": "Agora pensa comigo. Se você tem um time comercial de 10, 15, 20 pessoas e a única coisa que muda é o salário subindo todo ano, você tá sentado em cima de um problema que vai explodir. Porque o concorrente que automatizou o atendimento com IA já tá operando 24 horas, sem folga, sem falta, sem rotatividade. E você ainda tá tentando contratar vendedor bom no LinkedIn.",
+      "ato4_virada": "Eu vi isso acontecer na prática. Tinha uma operação com 37 vendedores. Folha de 90 a 120 mil por mês. Sabe quantos realmente produziam? Sete. O resto era custo puro. Quando a IA entrou, os agentes começaram a atender, qualificar, agendar e fechar. Sem atraso, sem desculpa, sem atestado. A folha caiu 80 por cento e a performance subiu.",
+      "ato5_expansao": "Hoje são mais de 30 empresas usando esse modelo. Clínicas, faculdades, escolas, farmácias, lojas. Setores completamente diferentes, mas com o mesmo resultado. O atendimento funciona de verdade. O lead não espera. O funil não para. E o empresário finalmente consegue escalar sem multiplicar problema.",
+      "ato6_cta": "Se você é empresário e ainda não colocou IA no seu atendimento e na sua operação comercial, o relatório de ontem foi um alerta vermelho. Não é questão de se, é questão de quando. E quem demora pra agir vai pagar mais caro. Se quiser entender como funciona na prática, me chama. Eu mostro o que 30 empresas já estão fazendo.",
+      "ato7_encerramento": "25 milhões de empregos. Não é ficção científica. É o relatório do Banco Mundial. A pergunta é: você vai liderar essa mudança ou vai ser atropelado por ela?"
+    },
+    "teleprompter": "Ontem saiu um relatório que deveria tirar o sono de muito empresário. A Organização Internacional do Trabalho, junto com o Banco Mundial, acabou de cravar: 25 milhões de empregos vão ser substituídos por IA generativa. Não em 2030. Em 2026. Esse ano.\n\nCara, não é previsão de guru de internet. É o Banco Mundial falando. A OIT falando. As duas maiores instituições de trabalho e economia do planeta. E o dado mais forte é esse: as funções mais afetadas são administrativas e profissionais. Gente que atende, que vende, que preenche planilha, que manda proposta. Exatamente o que a maioria das empresas depende pra funcionar.\n\nAgora pensa comigo. Se você tem um time comercial de 10, 15, 20 pessoas e a única coisa que muda é o salário subindo todo ano, você tá sentado em cima de um problema que vai explodir. Porque o concorrente que automatizou o atendimento com IA já tá operando 24 horas, sem folga, sem falta, sem rotatividade. E você ainda tá tentando contratar vendedor bom no LinkedIn.\n\nEu vi isso acontecer na prática. Tinha uma operação com 37 vendedores. Folha de 90 a 120 mil por mês. Sabe quantos realmente produziam? Sete. O resto era custo puro. Quando a IA entrou, os agentes começaram a atender, qualificar, agendar e fechar. Sem atraso, sem desculpa, sem atestado. A folha caiu 80 por cento e a performance subiu.\n\nHoje são mais de 30 empresas usando esse modelo. Clínicas, faculdades, escolas, farmácias, lojas. Setores completamente diferentes, mas com o mesmo resultado. O atendimento funciona de verdade. O lead não espera. O funil não para. E o empresário finalmente consegue escalar sem multiplicar problema.\n\nSe você é empresário e ainda não colocou IA no seu atendimento e na sua operação comercial, o relatório de ontem foi um alerta vermelho. Não é questão de se, é questão de quando. E quem demora pra agir vai pagar mais caro. Se quiser entender como funciona na prática, me chama. Eu mostro o que 30 empresas já estão fazendo.\n\n25 milhões de empregos. Não é ficção científica. É o relatório do Banco Mundial. A pergunta é: você vai liderar essa mudança ou vai ser atropelado por ela?",
+    "metricas": {
+      "totalPalavras": 418,
+      "totalFrases": 35,
+      "mediaFrase": 11.9,
+      "duracaoFinal": "1:50"
+    }
+  },
+  {
     "date": "2026-03-26",
     "agent": "K4",
     "historia": "Ford, empresa de 120 anos, lançou assistente de IA que analisa 1 bilhão de dados por dia e reduz 40% do tempo de gestão de frotas. Se a Ford entendeu que precisa de IA, qual a desculpa do seu negócio?",
