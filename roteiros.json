@@ -1,6 +1,29 @@
 [
   {
     "date": "2026-03-28",
+    "agent": "K4",
+    "historia": "OpenAI encerrou o Sora, app de vídeo com IA que viralizou e fez 1 milhão de downloads em 5 dias. Motivo: custos insustentáveis. Disney cancelou acordo de US$1 bilhão. A lição: IA que impressiona não é a mesma que dá lucro.",
+    "fonte": "TechCrunch / The Verge / HPCwire",
+    "fonteUrl": "https://www.hpcwire.com/aiwire/2026/03/26/openai-shutters-sora-shifts-business-strategy-ahead-of-ipo/",
+    "roteiro": {
+      "ato1_gancho": "A maior empresa de inteligência artificial do mundo acabou de desligar o próprio produto. Não foi concorrente. Não foi processo judicial. A OpenAI matou o Sora porque tava dando prejuízo. Um app que fez um milhão de downloads em cinco dias. Morreu. E junto com ele, a Disney cancelou um acordo de um bilhão de dólares.",
+      "ato2_contexto": "Cara, o Sora era aquele gerador de vídeo por IA que viralizou no mundo inteiro. Você digitava uma frase e ele criava um vídeo cinematográfico do zero. O app liderou a App Store por dias. Todo mundo achava que ia revolucionar Hollywood. A Disney já tinha fechado parceria pra licenciar personagens. Era o produto mais hypado da OpenAI. E mesmo assim, não sobreviveu.",
+      "ato3_conflito": "O motivo é brutalmente simples. Gerar vídeo com IA consome uma quantidade absurda de processamento. Cada vídeo custava muito mais do que o usuário pagava. Quanto mais gente usava, mais dinheiro a OpenAI perdia. E isso expõe um problema que ninguém quer falar. Tem muita empresa investindo em IA pra impressionar e zero empresa calculando se aquilo gera retorno real. Hype não paga servidor. Hype não paga equipe. Hype não sustenta negócio.",
+      "ato4_virada": "E eu falo isso porque aprendi na dor. Tinha 37 vendedores. Folha de 90 a 120 mil por mês. De fora, parecia uma operação robusta. Por dentro, só 20 por cento produzia. O resto era custo fantasma. Não adiantava ter o maior time, o mais impressionante. O que importava era resultado por real investido. Quando coloquei agentes de IA pra atender, qualificar e agendar, não foi pra fazer bonito. Foi porque o número fechava. A folha caiu 80 por cento. A performance subiu. Porque IA que funciona é a que dá retorno, não a que vira notícia.",
+      "ato5_expansao": "Hoje são mais de 30 empresas operando com esse modelo. Clínicas, faculdades, escolas, farmácias, lojas. Nenhuma delas usa IA pra gerar vídeo bonito. Usam pra atender lead em 3 segundos. Pra qualificar sem depender de humano. Pra funcionar 24 horas sem aumentar custo. A diferença entre a IA do Sora e a IA que escala negócio é uma só: uma queima dinheiro, a outra multiplica.",
+      "ato6_cta": "Se você tá pensando em colocar IA no seu negócio, começa pela pergunta certa. Não é qual IA é mais impressionante. É qual IA se paga no primeiro mês. Me chama no direct que eu te mostro exatamente como essas 30 empresas fizeram a conta fechar.",
+      "ato7_encerramento": "A OpenAI matou o próprio produto porque não dava lucro. Se a maior empresa de IA do mundo precisa pensar em ROI, imagina o seu negócio."
+    },
+    "teleprompter": "A maior empresa de inteligência artificial do mundo acabou de desligar o próprio produto. Não foi concorrente. Não foi processo judicial. A OpenAI matou o Sora porque tava dando prejuízo. Um app que fez um milhão de downloads em cinco dias. Morreu. E junto com ele, a Disney cancelou um acordo de um bilhão de dólares.\n\nCara, o Sora era aquele gerador de vídeo por IA que viralizou no mundo inteiro. Você digitava uma frase e ele criava um vídeo cinematográfico do zero. O app liderou a App Store por dias. Todo mundo achava que ia revolucionar Hollywood. A Disney já tinha fechado parceria pra licenciar personagens. Era o produto mais hypado da OpenAI. E mesmo assim, não sobreviveu.\n\nO motivo é brutalmente simples. Gerar vídeo com IA consome uma quantidade absurda de processamento. Cada vídeo custava muito mais do que o usuário pagava. Quanto mais gente usava, mais dinheiro a OpenAI perdia. E isso expõe um problema que ninguém quer falar. Tem muita empresa investindo em IA pra impressionar e zero empresa calculando se aquilo gera retorno real. Hype não paga servidor. Hype não paga equipe. Hype não sustenta negócio.\n\nE eu falo isso porque aprendi na dor. Tinha 37 vendedores. Folha de 90 a 120 mil por mês. De fora, parecia uma operação robusta. Por dentro, só 20 por cento produzia. O resto era custo fantasma. Não adiantava ter o maior time, o mais impressionante. O que importava era resultado por real investido. Quando coloquei agentes de IA pra atender, qualificar e agendar, não foi pra fazer bonito. Foi porque o número fechava. A folha caiu 80 por cento. A performance subiu. Porque IA que funciona é a que dá retorno, não a que vira notícia.\n\nHoje são mais de 30 empresas operando com esse modelo. Clínicas, faculdades, escolas, farmácias, lojas. Nenhuma delas usa IA pra gerar vídeo bonito. Usam pra atender lead em 3 segundos. Pra qualificar sem depender de humano. Pra funcionar 24 horas sem aumentar custo. A diferença entre a IA do Sora e a IA que escala negócio é uma só: uma queima dinheiro, a outra multiplica.\n\nSe você tá pensando em colocar IA no seu negócio, começa pela pergunta certa. Não é qual IA é mais impressionante. É qual IA se paga no primeiro mês. Me chama no direct que eu te mostro exatamente como essas 30 empresas fizeram a conta fechar.\n\nA OpenAI matou o próprio produto porque não dava lucro. Se a maior empresa de IA do mundo precisa pensar em ROI, imagina o seu negócio.",
+    "metricas": {
+      "totalPalavras": 462,
+      "totalFrases": 40,
+      "mediaFrase": 11.6,
+      "duracaoFinal": "2:00"
+    }
+  },
+  {
+    "date": "2026-03-28",
     "agent": "K8",
     "historia": "OIT e Banco Mundial publicam relatório projetando que IA generativa vai substituir 25 milhões de empregos ainda em 2026",
     "fonte": "OIT / Banco Mundial (27 mar 2026)",
