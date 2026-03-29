@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-03-29",
+    "agent": "K8",
+    "historia": "87% das empresas já usam IA em vendas e pipeline cresce 340% mais rápido com agentes SDR, segundo Salesforce State of Sales 2026",
+    "fonte": "Salesforce State of Sales 2026 / Autobound / Gartner",
+    "fonteUrl": "https://www.autobound.ai/blog/state-of-ai-sales-prospecting-2026",
+    "roteiro": {
+      "ato1_gancho": "Um relatório da Salesforce que acabou de sair mostra um número que deveria assustar qualquer empresário que ainda não mexeu com IA. 87 por cento das empresas já estão usando inteligência artificial no processo de vendas. Não é previsão. Não é tendência. É dado real de março de 2026.",
+      "ato2_contexto": "Cara, esse dado vem do State of Sales 2026, o maior relatório de vendas do planeta. E tem mais. 54 por cento dessas empresas já colocaram agentes de IA direto no ciclo comercial. Não é chatbot bonitinho. É agente que atende, qualifica, agenda e faz follow-up sozinho. E o Gartner tá projetando que até 2027, metade de todas as interações B2B vão acontecer via agentes de IA. Metade.",
+      "ato3_conflito": "Agora faz a conta. Se 87 por cento já tá usando e você não tá, você é minoria. E não é minoria cool. É minoria que perde lead porque demora pra responder. Que paga 110 mil por ano num SDR que produz um terço do que um agente de IA entrega. O custo por lead das empresas que automatizaram caiu 85 por cento. O pipeline cresce 340 por cento mais rápido. Enquanto isso, tem empresário perdendo cliente porque o vendedor tava almoçando.",
+      "ato4_virada": "Eu passei por isso. 37 vendedores na folha. Noventa a 120 mil por mês. Parecia grande. Parecia profissional. Mas só 20 por cento produzia de verdade. O resto era salário jogado fora. Quando botei agentes de IA no atendimento, o lead passou a ser respondido em 3 segundos. De madrugada, feriado, final de semana. A folha caiu 80 por cento. O faturamento não caiu. Subiu.",
+      "ato5_expansao": "Hoje são mais de 30 empresas rodando com esse modelo. Clínica odontológica que atendia 8 horas agora atende 24. Faculdade que perdia lead no fim de semana agora matricula sábado às 2 da manhã. Farmácia que dependia de balconista pra responder WhatsApp agora tem agente que responde, tira dúvida e fecha venda. Setores diferentes, mesmo resultado. Mais atendimento, menos custo, mais conversão.",
+      "ato6_cta": "O relatório da Salesforce não é opinião. É dado. 87 por cento já tá usando. A pergunta é se você vai entrar agora ou vai esperar até ser tarde demais. Se quiser ver como funciona na prática, me chama no direct. Eu mostro o que essas 30 empresas estão fazendo.",
+      "ato7_encerramento": "87 por cento. Se você não tá nesse número, não é porque não precisa. É porque tá atrasado."
+    },
+    "teleprompter": "Um relatório da Salesforce que acabou de sair mostra um número que deveria assustar qualquer empresário que ainda não mexeu com IA. 87 por cento das empresas já estão usando inteligência artificial no processo de vendas. Não é previsão. Não é tendência. É dado real de março de 2026.\n\nCara, esse dado vem do State of Sales 2026, o maior relatório de vendas do planeta. E tem mais. 54 por cento dessas empresas já colocaram agentes de IA direto no ciclo comercial. Não é chatbot bonitinho. É agente que atende, qualifica, agenda e faz follow-up sozinho. E o Gartner tá projetando que até 2027, metade de todas as interações B2B vão acontecer via agentes de IA. Metade.\n\nAgora faz a conta. Se 87 por cento já tá usando e você não tá, você é minoria. E não é minoria cool. É minoria que perde lead porque demora pra responder. Que paga 110 mil por ano num SDR que produz um terço do que um agente de IA entrega. O custo por lead das empresas que automatizaram caiu 85 por cento. O pipeline cresce 340 por cento mais rápido. Enquanto isso, tem empresário perdendo cliente porque o vendedor tava almoçando.\n\nEu passei por isso. 37 vendedores na folha. Noventa a 120 mil por mês. Parecia grande. Parecia profissional. Mas só 20 por cento produzia de verdade. O resto era salário jogado fora. Quando botei agentes de IA no atendimento, o lead passou a ser respondido em 3 segundos. De madrugada, feriado, final de semana. A folha caiu 80 por cento. O faturamento não caiu. Subiu.\n\nHoje são mais de 30 empresas rodando com esse modelo. Clínica odontológica que atendia 8 horas agora atende 24. Faculdade que perdia lead no fim de semana agora matricula sábado às 2 da manhã. Farmácia que dependia de balconista pra responder WhatsApp agora tem agente que responde, tira dúvida e fecha venda. Setores diferentes, mesmo resultado. Mais atendimento, menos custo, mais conversão.\n\nO relatório da Salesforce não é opinião. É dado. 87 por cento já tá usando. A pergunta é se você vai entrar agora ou vai esperar até ser tarde demais. Se quiser ver como funciona na prática, me chama no direct. Eu mostro o que essas 30 empresas estão fazendo.\n\n87 por cento. Se você não tá nesse número, não é porque não precisa. É porque tá atrasado.",
+    "metricas": {
+      "totalPalavras": 394,
+      "totalFrases": 47,
+      "mediaFrase": 8.4,
+      "duracaoFinal": "2:37"
+    }
+  },
+  {
     "date": "2026-03-28",
     "agent": "K4",
     "historia": "OpenAI encerrou o Sora, app de vídeo com IA que viralizou e fez 1 milhão de downloads em 5 dias. Motivo: custos insustentáveis. Disney cancelou acordo de US$1 bilhão. A lição: IA que impressiona não é a mesma que dá lucro.",
