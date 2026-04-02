@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-04-02",
+    "agent": "K8",
+    "historia": "OpenAI levanta US$ 122 bilhões, atinge 900 milhões de usuários semanais e gera US$ 2 bilhões por mês. Matou o Sora e aposta tudo em agentes de IA.",
+    "fonte": "The Verge / OpenAI Blog",
+    "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "roteiro": {
+      "ato1_gancho": "A empresa mais valiosa de inteligência artificial do planeta acabou de receber cento e vinte e dois bilhões de dólares. Num único cheque. E a primeira coisa que eles fizeram foi matar o próprio produto de vídeo. Parece loucura. Mas quando você entende o motivo, muda tudo.",
+      "ato2_contexto": "A OpenAI fechou a maior rodada de investimento da história da tecnologia. Amazon, Nvidia, SoftBank, Microsoft. Todo mundo colocou dinheiro. Novecentos milhões de pessoas usam o ChatGPT toda semana. A receita hoje é de dois bilhões de dólares por mês. Não por ano. Por mês.",
+      "ato3_conflito": "Só que o mais interessante não é o dinheiro. É o que eles decidiram cortar. O Sora, o gerador de vídeo que todo mundo esperava, foi cancelado. Morreu. E por quê? Porque a OpenAI percebeu que vídeo bonito não paga conta. O que paga conta é agente de IA fazendo trabalho real dentro de empresa.",
+      "ato4_virada": "E isso eu vivo na pele. Quando eu tinha trinta e sete vendedores, a folha passava de noventa mil por mês. Vinte por cento realmente produzia. Os outros oitenta por cento? Atrasavam, faltavam, não respondiam lead no fim de semana. Quando a gente implementou agentes de IA pra fazer o atendimento, qualificação e agendamento, a operação virou outra. Disponível vinte e quatro horas. Sem folga. Sem desculpa.",
+      "ato5_expansao": "Hoje a gente atende mais de trinta empresas com essa tecnologia. Clínicas, escolas, faculdades, farmácias, lojas. Setores completamente diferentes, mas o resultado se repete. Menos gente, mais resultado, mais velocidade. A OpenAI investiu cento e vinte e dois bilhões nessa direção. Eles estão construindo um superapp de agentes. Isso não é previsão. Já está acontecendo.",
+      "ato6_cta": "Se você tem um negócio e ainda não entendeu que agentes de IA são o novo time comercial, você está ficando pra trás. Comenta aqui embaixo qual é o seu nicho que eu te mostro como isso funciona na prática.",
+      "ato7_encerramento": "A maior empresa de IA do mundo matou o vídeo bonito pra investir em trabalho real. A pergunta é: você vai continuar contratando gente que falta, ou vai montar o time que nunca dorme?"
+    },
+    "teleprompter": "A empresa mais valiosa de inteligência artificial do planeta acabou de receber cento e vinte e dois bilhões de dólares. Num único cheque. E a primeira coisa que eles fizeram foi matar o próprio produto de vídeo. Parece loucura. Mas quando você entende o motivo, muda tudo.\n\nA OpenAI fechou a maior rodada de investimento da história da tecnologia. Amazon, Nvidia, SoftBank, Microsoft. Todo mundo colocou dinheiro. Novecentos milhões de pessoas usam o ChatGPT toda semana. A receita hoje é de dois bilhões de dólares por mês. Não por ano. Por mês.\n\nSó que o mais interessante não é o dinheiro. É o que eles decidiram cortar. O Sora, o gerador de vídeo que todo mundo esperava, foi cancelado. Morreu. E por quê? Porque a OpenAI percebeu que vídeo bonito não paga conta. O que paga conta é agente de IA fazendo trabalho real dentro de empresa.\n\nE isso eu vivo na pele. Quando eu tinha trinta e sete vendedores, a folha passava de noventa mil por mês. Vinte por cento realmente produzia. Os outros oitenta por cento? Atrasavam, faltavam, não respondiam lead no fim de semana. Quando a gente implementou agentes de IA pra fazer o atendimento, qualificação e agendamento, a operação virou outra. Disponível vinte e quatro horas. Sem folga. Sem desculpa.\n\nHoje a gente atende mais de trinta empresas com essa tecnologia. Clínicas, escolas, faculdades, farmácias, lojas. Setores completamente diferentes, mas o resultado se repete. Menos gente, mais resultado, mais velocidade. A OpenAI investiu cento e vinte e dois bilhões nessa direção. Eles estão construindo um superapp de agentes. Isso não é previsão. Já está acontecendo.\n\nSe você tem um negócio e ainda não entendeu que agentes de IA são o novo time comercial, você está ficando pra trás. Comenta aqui embaixo qual é o seu nicho que eu te mostro como isso funciona na prática.\n\nA maior empresa de IA do mundo matou o vídeo bonito pra investir em trabalho real. A pergunta é: você vai continuar contratando gente que falta, ou vai montar o time que nunca dorme?",
+    "metricas": {
+      "totalPalavras": 418,
+      "totalFrases": 32,
+      "mediaFrase": 13,
+      "duracaoFinal": "1:45"
+    }
+  },
+  {
     "date": "2026-04-01",
     "agent": "K4",
     "historia": "KPMG confirma: 54% das empresas já deployaram agentes de IA em produção. Era 12% em 2024. Investimento médio saltou pra US$ 207 milhões por empresa. O maior gargalo não é tecnologia, é gente que não sabe usar.",
