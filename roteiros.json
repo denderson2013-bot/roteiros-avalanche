@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-04-03",
+    "agent": "K8",
+    "historia": "OpenAI fecha rodada recorde de US$122 bilhões, mas investidores já querem sair",
+    "fonte": "CNBC / Bloomberg",
+    "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+    "roteiro": {
+      "ato1_gancho": "A empresa que mais levantou dinheiro na história da tecnologia tem investidores tentando fugir. US$122 bilhões entraram. E US$600 milhões estão tentando sair. Parece loucura, mas é o retrato mais honesto do mercado de IA agora.",
+      "ato2_contexto": "A OpenAI fechou a maior rodada de investimento que já existiu. US$122 bilhões. Valuation de US$852 bilhões. Pra você ter ideia, isso é mais do que o PIB de 80% dos países do mundo. Os maiores fundos do planeta colocaram dinheiro ali. Mas a Bloomberg revelou que, no mercado secundário, investidores estão tentando vender suas ações e ninguém quer comprar. O dinheiro inteligente já está olhando pra outro lugar.",
+      "ato3_conflito": "E sabe qual é o problema real? Não é falta de tecnologia. É falta de resultado prático. A Forbes levantou uma lista de produtos da OpenAI que morreram. Parcerias bilionárias que não saíram do papel. O Sora, que ia revolucionar vídeo, foi descontinuado. Quando você levanta US$122 bilhões e não entrega proporcionalmente, o mercado cobra. E cobra rápido.",
+      "ato4_virada": "E é por isso que o jogo real não está nas big techs. Está em quem usa IA pra resolver problema de verdade. Tem empresa hoje substituindo 80% do time comercial por agentes de IA. Time de 37 vendedores, folha de R$90 a R$120 mil por mês, e só 20% realmente produtivo. Esses agentes não faltam, não atrasam, não ficam doentes. Atendem 24 horas. E o resultado aparece no caixa, não no PowerPoint de investidor.",
+      "ato5_expansao": "Isso não é teoria. São mais de 30 empresas reais usando isso hoje. Clínicas, faculdades, escolas, farmácias, lojas. Segmentos completamente diferentes. O padrão é o mesmo: quem automatiza o atendimento e a qualificação de leads com IA, escala. Quem não automatiza, paga caro pra crescer devagar. E o gap entre esses dois grupos está aumentando todo dia.",
+      "ato6_cta": "Se você é empresário e ainda depende 100% de equipe humana pra vender, presta atenção. O momento de entender como IA entra na sua operação comercial é agora. Não quando todo mundo já estiver usando. Me segue aqui que eu mostro como isso funciona na prática.",
+      "ato7_encerramento": "US$122 bilhões não garantem nada. O que garante resultado é execução. E execução hoje tem nome: inteligência artificial aplicada."
+    },
+    "teleprompter": "A empresa que mais levantou dinheiro na história da tecnologia tem investidores tentando fugir. US$122 bilhões entraram. E US$600 milhões estão tentando sair. Parece loucura, mas é o retrato mais honesto do mercado de IA agora.\n\nA OpenAI fechou a maior rodada de investimento que já existiu. US$122 bilhões. Valuation de US$852 bilhões. Pra você ter ideia, isso é mais do que o PIB de 80% dos países do mundo. Os maiores fundos do planeta colocaram dinheiro ali. Mas a Bloomberg revelou que, no mercado secundário, investidores estão tentando vender suas ações e ninguém quer comprar. O dinheiro inteligente já está olhando pra outro lugar.\n\nE sabe qual é o problema real? Não é falta de tecnologia. É falta de resultado prático. A Forbes levantou uma lista de produtos da OpenAI que morreram. Parcerias bilionárias que não saíram do papel. O Sora, que ia revolucionar vídeo, foi descontinuado. Quando você levanta US$122 bilhões e não entrega proporcionalmente, o mercado cobra. E cobra rápido.\n\nE é por isso que o jogo real não está nas big techs. Está em quem usa IA pra resolver problema de verdade. Tem empresa hoje substituindo 80% do time comercial por agentes de IA. Time de 37 vendedores, folha de R$90 a R$120 mil por mês, e só 20% realmente produtivo. Esses agentes não faltam, não atrasam, não ficam doentes. Atendem 24 horas. E o resultado aparece no caixa, não no PowerPoint de investidor.\n\nIsso não é teoria. São mais de 30 empresas reais usando isso hoje. Clínicas, faculdades, escolas, farmácias, lojas. Segmentos completamente diferentes. O padrão é o mesmo: quem automatiza o atendimento e a qualificação de leads com IA, escala. Quem não automatiza, paga caro pra crescer devagar. E o gap entre esses dois grupos está aumentando todo dia.\n\nSe você é empresário e ainda depende 100% de equipe humana pra vender, presta atenção. O momento de entender como IA entra na sua operação comercial é agora. Não quando todo mundo já estiver usando. Me segue aqui que eu mostro como isso funciona na prática.\n\nUS$122 bilhões não garantem nada. O que garante resultado é execução. E execução hoje tem nome: inteligência artificial aplicada.",
+    "metricas": {
+      "totalPalavras": 432,
+      "totalFrases": 33,
+      "mediaFrase": 13.1,
+      "duracaoFinal": "1:45 a 2:10"
+    }
+  },
+  {
     "date": "2026-04-02",
     "agent": "K4",
     "historia": "Oracle demite 30.000 funcionários por email às 6h da manhã para redirecionar US$ 10 bilhões para data centers de IA. Ação caiu 25% no ano. A empresa de 46 anos tá se reconstruindo do zero, e quem não entendeu o recado já ficou pra trás.",
