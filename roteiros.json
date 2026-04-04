@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-04",
+    "agent": "K8",
+    "historia": "Investimento recorde de US$300 bilhões em startups de IA no Q1 2026",
+    "fonte": "TechCrunch / Crunchbase",
+    "roteiro": {
+      "ato1_gancho": "Trezentos bilhões de dólares. Esse foi o valor que investidores colocaram em startups de inteligência artificial em apenas três meses. Não em um ano. Em um trimestre. Q1 de 2026 entrou pra história como o maior trimestre de investimento em tecnologia de todos os tempos.",
+      "ato2_contexto": "Pra você ter noção, esse valor é maior que tudo que foi investido em startups no mundo inteiro em qualquer ano antes de 2018. Só a OpenAI captou 122 bilhões numa rodada só. A Anthropic, 30 bilhões. A xAI do Musk, 20 bilhões. Quatro empresas sozinhas representaram 63% de todo o dinheiro investido no trimestre. O mercado tá gritando uma coisa: IA não é tendência. É infraestrutura.",
+      "ato3_conflito": "Agora, o que isso significa pra quem tem empresa no Brasil? Significa que as ferramentas que essas empresas estão construindo vão chegar no seu mercado. Mais rápido do que você imagina. E quando chegarem, o concorrente que já automatizou o atendimento, que já tem agente de IA qualificando lead 24 horas, vai estar meses na frente. A janela pra se posicionar tá fechando.",
+      "ato4_virada": "Eu vivi isso na pele. Tinha 37 vendedores. Folha de 90 a 120 mil por mês. Sabe quantos eram realmente produtivos? 20%. O resto era custo. Quando implementei agentes de IA no atendimento, o jogo mudou completamente. Atendimento 24 horas, sem falta, sem atraso, sem desculpa. A mesma tecnologia que essas empresas bilionárias estão construindo, a gente já usa no dia a dia.",
+      "ato5_expansao": "Hoje são mais de 30 clientes usando essa estrutura. Clínicas, faculdades, lojas, farmácias, escolas. Cada um com agente de IA atendendo, qualificando e agendando. Não é sobre substituir pessoas. É sobre colocar inteligência onde antes tinha gargalo. O mundo tá investindo 300 bilhões porque entendeu que empresa sem IA operacional vai perder mercado.",
+      "ato6_cta": "Se você tem empresa e ainda não automatizou o comercial, precisa olhar pra isso agora. Não amanhã, não mês que vem. Comenta aqui embaixo ou manda mensagem que eu mostro como funciona na prática.",
+      "ato7_encerramento": "Trezentos bilhões não mentem. A pergunta não é se IA vai mudar o mercado. A pergunta é se você vai estar do lado de quem lidera ou do lado de quem corre atrás."
+    },
+    "teleprompter": "Trezentos bilhões de dólares. Esse foi o valor que investidores colocaram em startups de inteligência artificial em apenas três meses. Não em um ano. Em um trimestre. Q1 de 2026 entrou pra história como o maior trimestre de investimento em tecnologia de todos os tempos.\n\nPra você ter noção, esse valor é maior que tudo que foi investido em startups no mundo inteiro em qualquer ano antes de 2018. Só a OpenAI captou 122 bilhões numa rodada só. A Anthropic, 30 bilhões. A xAI do Musk, 20 bilhões. Quatro empresas sozinhas representaram 63% de todo o dinheiro investido no trimestre. O mercado tá gritando uma coisa: IA não é tendência. É infraestrutura.\n\nAgora, o que isso significa pra quem tem empresa no Brasil? Significa que as ferramentas que essas empresas estão construindo vão chegar no seu mercado. Mais rápido do que você imagina. E quando chegarem, o concorrente que já automatizou o atendimento, que já tem agente de IA qualificando lead 24 horas, vai estar meses na frente. A janela pra se posicionar tá fechando.\n\nEu vivi isso na pele. Tinha 37 vendedores. Folha de 90 a 120 mil por mês. Sabe quantos eram realmente produtivos? 20%. O resto era custo. Quando implementei agentes de IA no atendimento, o jogo mudou completamente. Atendimento 24 horas, sem falta, sem atraso, sem desculpa. A mesma tecnologia que essas empresas bilionárias estão construindo, a gente já usa no dia a dia.\n\nHoje são mais de 30 clientes usando essa estrutura. Clínicas, faculdades, lojas, farmácias, escolas. Cada um com agente de IA atendendo, qualificando e agendando. Não é sobre substituir pessoas. É sobre colocar inteligência onde antes tinha gargalo. O mundo tá investindo 300 bilhões porque entendeu que empresa sem IA operacional vai perder mercado.\n\nSe você tem empresa e ainda não automatizou o comercial, precisa olhar pra isso agora. Não amanhã, não mês que vem. Comenta aqui embaixo ou manda mensagem que eu mostro como funciona na prática.\n\nTrezentos bilhões não mentem. A pergunta não é se IA vai mudar o mercado. A pergunta é se você vai estar do lado de quem lidera ou do lado de quem corre atrás.",
+    "metricas": {
+      "totalPalavras": 418,
+      "totalFrases": 32,
+      "mediaFrase": 13,
+      "duracaoFinal": "1:50"
+    }
+  },
+  {
     "date": "2026-04-03",
     "agent": "K8",
     "historia": "OpenAI fecha rodada recorde de US$122 bilhões, mas investidores já querem sair",
