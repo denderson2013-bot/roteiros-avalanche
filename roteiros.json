@@ -1,6 +1,28 @@
 [
   {
     "date": "2026-04-06",
+    "historia": "Relatório NVIDIA revela: 86% das empresas vão aumentar investimento em IA e 44% já usam agentes autônomos",
+    "fonte": "NVIDIA State of AI Report 2026",
+    "roteiro": {
+      "ato1_gancho": "A NVIDIA acabou de soltar um relatório com mais de 3 mil empresas. E o número que apareceu ali assustou muita gente. 86% das empresas vão aumentar o investimento em inteligência artificial esse ano. Não é previsão. Não é tendência. É decisão tomada.",
+      "ato2_contexto": "O relatório State of AI 2026 ouviu empresas do mundo inteiro. Saúde, varejo, telecomunicações, manufatura, serviços financeiros. Gente grande. E o que eles acharam foi claro. 64% já usam IA no dia a dia das operações. Não testando. Não avaliando. Usando. Em produção. Gerando receita. E 88% dessas empresas disseram que a IA já aumentou o faturamento delas.",
+      "ato3_conflito": "Mas tem um dado nesse relatório que ninguém tá falando. Sabe qual é o maior desafio que essas empresas apontaram? Não é dinheiro. Não é tecnologia. É falta de gente qualificada. As empresas querem automatizar. Têm o orçamento pra isso. Mas não encontram quem implante. Quem configure. Quem faça funcionar. O mercado tá pedindo algo que quase ninguém oferece ainda.",
+      "ato4_virada": "Agora pensa comigo. Eu tinha 37 vendedores. Gastava entre 90 e 120 mil reais por mês. Sabe quantos eram produtivos de verdade? 20%. Eu olhei pra esse cenário e falei: isso aqui não escala. Botei agentes de IA pra atender, qualificar, agendar e fechar. 24 horas por dia. Sem folga, sem atraso, sem desculpa. Reduzi 80% da folha e a performance subiu.",
+      "ato5_expansao": "E não fui só eu. Hoje são mais de 30 clientes usando essa estrutura. Clínicas, escolas, faculdades, farmácias, lojas. Setores completamente diferentes. E funciona em todos. Porque o problema é o mesmo em todo lugar. Gente cara, processo lento, atendimento inconsistente. A IA resolve isso. E esse relatório da NVIDIA tá dizendo: 44% das empresas já usam ou estão avaliando agentes de IA autônomos. Isso não é futuro. Isso é agora.",
+      "ato6_cta": "Se você tem um negócio e ainda não começou a automatizar o atendimento, a qualificação, o agendamento, você tá perdendo dinheiro todo dia. Não é questão de querer. Os números estão aí. Me chama no direct. Vou te mostrar como funciona na prática.",
+      "ato7_encerramento": "86% das empresas já decidiram. A única pergunta que resta é se você vai ser parte desse número ou vai assistir de fora."
+    },
+    "teleprompter": "A NVIDIA acabou de soltar um relatório com mais de 3 mil empresas. E o número que apareceu ali assustou muita gente. 86% das empresas vão aumentar o investimento em inteligência artificial esse ano. Não é previsão. Não é tendência. É decisão tomada.\n\nO relatório State of AI 2026 ouviu empresas do mundo inteiro. Saúde, varejo, telecomunicações, manufatura, serviços financeiros. Gente grande. E o que eles acharam foi claro. 64% já usam IA no dia a dia das operações. Não testando. Não avaliando. Usando. Em produção. Gerando receita. E 88% dessas empresas disseram que a IA já aumentou o faturamento delas.\n\nMas tem um dado nesse relatório que ninguém tá falando. Sabe qual é o maior desafio que essas empresas apontaram? Não é dinheiro. Não é tecnologia. É falta de gente qualificada. As empresas querem automatizar. Têm o orçamento pra isso. Mas não encontram quem implante. Quem configure. Quem faça funcionar. O mercado tá pedindo algo que quase ninguém oferece ainda.\n\nAgora pensa comigo. Eu tinha 37 vendedores. Gastava entre 90 e 120 mil reais por mês. Sabe quantos eram produtivos de verdade? 20%. Eu olhei pra esse cenário e falei: isso aqui não escala. Botei agentes de IA pra atender, qualificar, agendar e fechar. 24 horas por dia. Sem folga, sem atraso, sem desculpa. Reduzi 80% da folha e a performance subiu.\n\nE não fui só eu. Hoje são mais de 30 clientes usando essa estrutura. Clínicas, escolas, faculdades, farmácias, lojas. Setores completamente diferentes. E funciona em todos. Porque o problema é o mesmo em todo lugar. Gente cara, processo lento, atendimento inconsistente. A IA resolve isso. E esse relatório da NVIDIA tá dizendo: 44% das empresas já usam ou estão avaliando agentes de IA autônomos. Isso não é futuro. Isso é agora.\n\nSe você tem um negócio e ainda não começou a automatizar o atendimento, a qualificação, o agendamento, você tá perdendo dinheiro todo dia. Não é questão de querer. Os números estão aí. Me chama no direct. Vou te mostrar como funciona na prática.\n\n86% das empresas já decidiram. A única pergunta que resta é se você vai ser parte desse número ou vai assistir de fora.",
+    "metricas": {
+      "totalPalavras": 428,
+      "totalFrases": 40,
+      "mediaFrase": 10.7,
+      "duracaoFinal": "1:50"
+    },
+    "agent": "K4"
+  },
+  {
+    "date": "2026-04-06",
     "agent": "K8",
     "historia": "OpenAI defende investimento em rede elétrica e proteção social para a era da IA",
     "fonte": "Bloomberg",
