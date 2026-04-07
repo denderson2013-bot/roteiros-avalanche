@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-07",
+    "agent": "K8",
+    "historia": "Startup Rocket quer entregar estratégia de produto estilo McKinsey por uma fração do preço usando IA",
+    "fonte": "TechCrunch",
+    "roteiro": {
+      "ato1_gancho": "Cara, a IA acabou de entrar num território que antes era quase exclusivo de consultoria cara. Agora ela não só executa. Ela começa a ajudar a decidir o que construir, como cobrar e como entrar no mercado.",
+      "ato2_contexto": "A notícia vem da TechCrunch. A Rocket lançou uma plataforma que junta pesquisa, inteligência competitiva, precificação e go to market no mesmo fluxo. Em vez de semanas de análise, reunião e planilha, o empreendedor escreve um prompt e recebe um direcionamento estratégico muito mais rápido.\n\nA empresa cobra de vinte e cinco a trezentos e cinquenta dólares por mês. Pô, isso é muito abaixo do custo de uma consultoria tradicional. E ela diz que já passou de um milhão e meio de usuários em cento e oitenta países.",
+      "ato3_conflito": "O problema é que muita empresa ainda usa IA só para fazer tarefa solta. Texto, imagem, resumo, automação pequena. Só que o desperdício maior quase sempre está antes. Está na decisão lenta, na aposta errada e no processo que consome energia demais para validar coisa simples.\n\nEnquanto uma operação fica presa em reunião e achismo, outra usa IA para enxergar padrão, testar rota e agir primeiro. A distância abre rápido.",
+      "ato4_virada": "Foi essa lógica que mudou muita operação comercial. Tinha empresa com trinta e sete vendedores, folha entre noventa e cento e vinte mil por mês, e só vinte por cento realmente produtivos. O gargalo não era esforço. Era estrutura pesada, inconsistente e cara.\n\nQuando agentes de IA entram para atender, qualificar, responder e seguir processo, a empresa deixa de comprar esforço desorganizado e começa a operar com sistema. A Rocket mostra a mesma virada numa camada anterior. A IA começa a reduzir erro antes mesmo da execução.",
+      "ato5_expansao": "E isso não está preso no Vale do Silício. Já tem mais de trinta clientes aplicando esse raciocínio em setores diferentes, de educação a clínica, de loja a farmácia. Onde existe repetição, atraso, lead perdido ou decisão lenta, a IA comprime tempo e devolve margem.",
+      "ato6_cta": "Se a sua empresa ainda usa IA só como brinquedo de produtividade, você está olhando pequeno. Mapeia onde a decisão trava, onde o processo repete e onde o dinheiro escapa por falta de consistência. É aí que agente vira vantagem competitiva de verdade.",
+      "ato7_encerramento": "No fim, galera, a próxima empresa a crescer mais não é a que usa mais ferramenta. É a que transforma decisão e operação em sistema antes do resto do mercado."
+    },
+    "teleprompter": "Cara, a IA acabou de entrar num território que antes era quase exclusivo de consultoria cara. Agora ela não só executa. Ela começa a ajudar a decidir o que construir, como cobrar e como entrar no mercado.\n\nA notícia vem da TechCrunch. A Rocket lançou uma plataforma que junta pesquisa, inteligência competitiva, precificação e go to market no mesmo fluxo. Em vez de semanas de análise, reunião e planilha, o empreendedor escreve um prompt e recebe um direcionamento estratégico muito mais rápido.\n\nA empresa cobra de vinte e cinco a trezentos e cinquenta dólares por mês. Pô, isso é muito abaixo do custo de uma consultoria tradicional. E ela diz que já passou de um milhão e meio de usuários em cento e oitenta países.\n\nO problema é que muita empresa ainda usa IA só para fazer tarefa solta. Texto, imagem, resumo, automação pequena. Só que o desperdício maior quase sempre está antes. Está na decisão lenta, na aposta errada e no processo que consome energia demais para validar coisa simples.\n\nEnquanto uma operação fica presa em reunião e achismo, outra usa IA para enxergar padrão, testar rota e agir primeiro. A distância abre rápido.\n\nFoi essa lógica que mudou muita operação comercial. Tinha empresa com trinta e sete vendedores, folha entre noventa e cento e vinte mil por mês, e só vinte por cento realmente produtivos. O gargalo não era esforço. Era estrutura pesada, inconsistente e cara.\n\nQuando agentes de IA entram para atender, qualificar, responder e seguir processo, a empresa deixa de comprar esforço desorganizado e começa a operar com sistema. A Rocket mostra a mesma virada numa camada anterior. A IA começa a reduzir erro antes mesmo da execução.\n\nE isso não está preso no Vale do Silício. Já tem mais de trinta clientes aplicando esse raciocínio em setores diferentes, de educação a clínica, de loja a farmácia. Onde existe repetição, atraso, lead perdido ou decisão lenta, a IA comprime tempo e devolve margem.\n\nSe a sua empresa ainda usa IA só como brinquedo de produtividade, você está olhando pequeno. Mapeia onde a decisão trava, onde o processo repete e onde o dinheiro escapa por falta de consistência. É aí que agente vira vantagem competitiva de verdade.\n\nNo fim, galera, a próxima empresa a crescer mais não é a que usa mais ferramenta. É a que transforma decisão e operação em sistema antes do resto do mercado.",
+    "metricas": {
+      "totalPalavras": 428,
+      "totalFrases": 30,
+      "mediaFrase": 14,
+      "duracaoFinal": "2:23"
+    }
+  },
+  {
     "date": "2026-04-06",
     "historia": "Relatório NVIDIA revela: 86% das empresas vão aumentar investimento em IA e 44% já usam agentes autônomos",
     "fonte": "NVIDIA State of AI Report 2026",
