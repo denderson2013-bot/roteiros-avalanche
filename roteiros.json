@@ -1186,5 +1186,26 @@
     },
     "status": "pendente",
     "agent": "K8"
+  },
+  {
+    "date": "2026-04-08",
+    "historia": "GLM-5.1: modelo open source gratuito roda 8 horas sozinho e empata com Claude Opus 4",
+    "fonte": "Z.AI / Creati.ai",
+    "roteiro": {
+      "ato1_gancho": "Imagina um cara, numa startup chinesa de 200 funcionários, lançando um modelo de IA gratuito que compete de igual pra igual com o produto mais caro da Anthropic. Isso aconteceu ontem. E o que eu vou te contar agora muda completamente o jogo pra quem empreende com inteligência artificial.",
+      "ato2_contexto": "A Z.AI lançou o GLM-5.1. É um modelo open source com 754 bilhões de parâmetros. Só esse número já impressiona, mas o diferencial não é tamanho. O diferencial é que esse modelo consegue trabalhar sozinho por até 8 horas seguidas sem perder o foco. Ele planeja, executa, testa, corrige, e repete. Sozinho. Sem ninguém segurando a mão dele. Nos benchmarks oficiais, ele empata com o Claude Opus 4.6, que é o modelo que eu uso pra rodar minha operação inteira. O mesmo modelo que custa milhares de dólares por mês pra empresas. E a Z.AI lançou isso de graça, com licença MIT. Qualquer pessoa pode baixar, rodar e usar comercialmente.",
+      "ato3_conflito": "Mas aqui é onde a maioria vai errar. A galera vai olhar pra essa notícia e pensar: legal, mais um modelo novo. E vai continuar fazendo tudo manual. Vai continuar respondendo lead um por um, montando proposta no Canva, escrevendo copy na mão, agendando post manualmente. Enquanto tem gente usando modelos como esse pra automatizar operações inteiras. Eu sei porque eu fiz isso. Eu tinha 37 vendedores. Trinta e sete. Folha de 90 a 120 mil reais por mês. Vinte por cento eram produtivos. Os outros oitenta por cento fumavam, faltavam, chegavam atrasados, ficavam doentes. Hoje eu tenho agentes de IA que trabalham 24 horas, 7 dias por semana, sem reclamar, sem atrasar, sem pedir aumento.",
+      "ato4_virada": "E agora imagina o seguinte cenário: um modelo gratuito que trabalha 8 horas sozinho. Isso significa que um empreendedor, um infoprodutor, um dono de agência, um profissional liberal, qualquer pessoa com um computador e uma boa internet, pode montar um time de agentes de IA que executa tarefas complexas por horas sem interrupção. A barreira caiu. Não é mais sobre ter dinheiro pra pagar API cara. É sobre saber o que pedir pro modelo fazer. O recurso ficou democrático. O que falta é conhecimento.",
+      "ato5_expansao": "E é por isso que eu bato tanto nessa tecla. O mercado tá se dividindo em dois grupos. O primeiro grupo é o que entende que IA é infraestrutura, não tendência. Esse grupo tá construindo sistemas, treinando agentes, automatizando processos, delegando pra máquinas o que máquinas fazem melhor. O segundo grupo ainda tá debatendo se IA vai tirar emprego. Enquanto debate, o primeiro grupo já substituiu o debate por resultado. O GLM-5.1 é só o começo. Hoje é um modelo que empata com Claude. Amanhã é um modelo que supera. E vai ser gratuito. A pergunta não é se a IA vai mudar seu mercado. É se você vai ser o cara que muda ou o cara que foi mudado.",
+      "ato6_cta": "Se você quer entender como montar essa estrutura no seu negócio, eu tenho um quiz de maturidade em IA que te mostra exatamente onde você está e qual o próximo passo. O link tá na bio. Faz o quiz agora, são 2 minutos, e descobre se o seu negócio tá pronto pra essa revolução ou se tá ficando pra trás.",
+      "ato7_encerramento": "IA não espera ninguém. Ou você monta o time agora, ou vai pagar caro pra recuperar o atraso depois. Nos vemos no próximo."
+    },
+    "metricas": {
+      "totalPalavras": 682,
+      "totalFrases": 52,
+      "mediaFrase": 13.1,
+      "duracaoFinal": "2:15"
+    },
+    "marca": "K4"
   }
 ]
