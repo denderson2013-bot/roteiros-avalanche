@@ -1242,5 +1242,19 @@
       "duracaoFinal": "2:15"
     },
     "marca": "K4"
+  },
+  {
+    "date": "2026-04-09",
+    "marca": "K4",
+    "historia": "Meta investe US$14,3 bilhões em uma única contratação e reconstrói toda sua IA do zero em 9 meses",
+    "fonte": "CNBC / TechCrunch / Fortune",
+    "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+    "roteiro": "A Meta acabou de pagar catorze bilhões de dólares pra contratar uma única pessoa. Não foi um time inteiro. Foi um cara de vinte e sete anos. E em nove meses, ele reconstruiu toda a inteligência artificial da empresa do zero.\n\nO nome dele é Alexandr Wang. Ele era CEO da Scale AI, uma das maiores empresas de dados pra IA do mundo. O Zuckerberg olhou pro cenário, viu que OpenAI, Google e Anthropic estavam passando a Meta pra trás, e tomou uma decisão radical. Não tentou consertar o que tinha. Jogou tudo fora e começou de novo.\n\nCriou o Meta Superintelligence Labs, colocou o Alexandr na liderança e deu carta branca. Quatorze bilhões. Uma aposta. Sem plano B.\n\nSó que a pressão era absurda. O último modelo open-source da Meta foi um fracasso. Os desenvolvedores ignoraram. As ações caíram. A imprensa inteira dizia que a Meta tinha perdido a corrida da IA. Nove meses. Esse era o prazo. Ou entregava algo real, ou queimava catorze bilhões de dólares em público.\n\nOntem eles lançaram o Muse Spark. Primeiro modelo da nova série Muse. Construído do zero, stack inteiro refeito. E aqui é onde fica interessante: o modelo é pequeno e rápido de propósito. Raciocina em ciência, matemática e saúde. Não é o modelo final, é a fundação. A próxima geração já tá em desenvolvimento.\n\nAs ações da Meta subiram seis e meio por cento no mesmo dia. O mercado entendeu a mensagem.\n\nE é aqui que entra a lição pra quem tá construindo alguma coisa. A Meta não tentou melhorar o que não funcionava. Ela descartou e recomeçou. E a decisão mais cara não foi a tecnologia, foi o talento. Catorze bilhões numa pessoa que sabia executar.\n\nIsso vale pra qualquer tamanho de empresa. O maior investimento que você pode fazer não é em ferramenta, não é em software, não é em campanha. É na pessoa certa no lugar certo. Uma contratação estratégica muda tudo. Um agente de IA no setor certo da sua empresa muda tudo.\n\nEnquanto a maioria dos empresários tá economizando vinte reais por mês pra não pagar uma ferramenta de IA, tem gente investindo bilhões pra não ficar pra trás. A diferença não é o dinheiro. É a mentalidade.\n\nSe você quer entender como aplicar IA de verdade no seu negócio, como montar um time de agentes que trabalha vinte e quatro horas sem folga e sem desculpa, faz o quiz de maturidade em IA que tá no link da bio. Em dois minutos você descobre onde tá e qual o próximo passo.\n\nA Meta gastou catorze bilhões pra recomeçar. Você pode começar hoje com o que tem. A diferença é só decidir.",
+    "metricas": {
+      "totalPalavras": 573,
+      "totalFrases": 40,
+      "mediaFrase": 14.3,
+      "duracaoFinal": "2:10"
+    }
   }
 ]
