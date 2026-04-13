@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-04-13",
+    "agent": "K8",
+    "historia": "IA virou infraestrutura, não acessório",
+    "fonte": "Forbes",
+    "roteiro": {
+      "ato1": "Cara, tem empresa fechando contrato de vinte e um bilhões de dólares só para alugar infraestrutura de IA. Isso acabou de acontecer e o mercado inteiro deveria prestar atenção.",
+      "ato2": "A notícia vem da Forbes. A CoreWeave fechou um pacote gigante com a Meta e ainda amarrou um acordo multianual com a Anthropic. Pô, isso não é uma parceria qualquer. Isso mostra que IA virou base operacional, não acessório de produtividade. E esse recado vale muito para qualquer empresário que ainda acha que isso é moda passageira.",
+      "ato3": "Durante muito tempo a galera tratou IA como ferramenta para fazer post, resumir reunião e responder mensagem. Só que o jogo mudou de fase. Quando empresas desse tamanho começam a disputar capacidade computacional, elas não estão comprando moda. Estão comprando velocidade, vantagem e escala. E quem controla infraestrutura passa a influenciar custo, acesso e tempo de resposta.",
+      "ato4": "Isso bate direto com o que já está acontecendo dentro das empresas. Tinha operação comercial rodando com trinta e sete vendedores, custando entre noventa e cento e vinte mil por mês, com só vinte por cento realmente produtivo. Quando agentes de IA entraram no processo, o atendimento passou a funcionar vinte e quatro horas, a qualificação ganhou padrão e o time humano saiu do trabalho repetitivo para focar no que gera receita.",
+      "ato5": "É aqui que muita gente ainda está olhando pequeno. Não é sobre parecer moderno. É sobre redesenhar a operação inteira. É lead sendo atendido sem fila, agenda sendo preenchida com previsibilidade, follow-up acontecendo sem esquecimento e o comercial gastando energia em conversa boa. Também é menos retrabalho, menos buraco no funil, menos dependência de memória individual e mais consistência na experiência do cliente. E isso já acontece em mais de trinta clientes, em nichos diferentes, de educação a clínica, de loja a faculdade. Quando a infraestrutura acelera lá em cima, a aplicação prática acelera aqui embaixo.",
+      "ato6": "Então faz uma pergunta honesta para a sua empresa. A IA hoje está enfeitando o processo ou está carregando parte do trabalho de verdade. Porque quem entender isso cedo vai crescer com mais margem, mais controle e menos peso operacional no dia a dia. Quem deixar para depois provavelmente vai pagar mais caro para manter um modelo lento, cansado e difícil de escalar.",
+      "ato7": "No fim, a disputa não é entre empresa com IA e empresa sem IA. A disputa é entre operação que escala e operação que cansa. E essa diferença está ficando brutal."
+    },
+    "teleprompter": "ATO 1\nCara, tem empresa fechando contrato de vinte e um bilhões de dólares só para alugar infraestrutura de IA. Isso acabou de acontecer e o mercado inteiro deveria prestar atenção.\n\nATO 2\nA notícia vem da Forbes. A CoreWeave fechou um pacote gigante com a Meta e ainda amarrou um acordo multianual com a Anthropic. Pô, isso não é uma parceria qualquer. Isso mostra que IA virou base operacional, não acessório de produtividade. E esse recado vale muito para qualquer empresário que ainda acha que isso é moda passageira.\n\nATO 3\nDurante muito tempo a galera tratou IA como ferramenta para fazer post, resumir reunião e responder mensagem. Só que o jogo mudou de fase. Quando empresas desse tamanho começam a disputar capacidade computacional, elas não estão comprando moda. Estão comprando velocidade, vantagem e escala. E quem controla infraestrutura passa a influenciar custo, acesso e tempo de resposta.\n\nATO 4\nIsso bate direto com o que já está acontecendo dentro das empresas. Tinha operação comercial rodando com trinta e sete vendedores, custando entre noventa e cento e vinte mil por mês, com só vinte por cento realmente produtivo. Quando agentes de IA entraram no processo, o atendimento passou a funcionar vinte e quatro horas, a qualificação ganhou padrão e o time humano saiu do trabalho repetitivo para focar no que gera receita.\n\nATO 5\nÉ aqui que muita gente ainda está olhando pequeno. Não é sobre parecer moderno. É sobre redesenhar a operação inteira. É lead sendo atendido sem fila, agenda sendo preenchida com previsibilidade, follow-up acontecendo sem esquecimento e o comercial gastando energia em conversa boa. Também é menos retrabalho, menos buraco no funil, menos dependência de memória individual e mais consistência na experiência do cliente. E isso já acontece em mais de trinta clientes, em nichos diferentes, de educação a clínica, de loja a faculdade. Quando a infraestrutura acelera lá em cima, a aplicação prática acelera aqui embaixo.\n\nATO 6\nEntão faz uma pergunta honesta para a sua empresa. A IA hoje está enfeitando o processo ou está carregando parte do trabalho de verdade. Porque quem entender isso cedo vai crescer com mais margem, mais controle e menos peso operacional no dia a dia. Quem deixar para depois provavelmente vai pagar mais caro para manter um modelo lento, cansado e difícil de escalar.\n\nATO 7\nNo fim, a disputa não é entre empresa com IA e empresa sem IA. A disputa é entre operação que escala e operação que cansa. E essa diferença está ficando brutal.",
+    "metricas": {
+      "totalPalavras": 405,
+      "totalFrases": 29,
+      "mediaFrase": 14,
+      "duracaoFinal": "2:23"
+    },
+    "url": "https://www.forbes.com/sites/janakirammsv/2026/04/13/coreweave-becomes-ais-landlord-with-meta-and-anthropic-deals/?ss=ai"
+  },
+  {
     "date": "2026-04-12",
     "agent": "K8",
     "historia": "Pequenos vendedores estão usando IA para decidir o que fabricar e lançar mais rápido",
