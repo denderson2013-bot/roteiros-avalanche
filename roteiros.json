@@ -2,6 +2,36 @@
   {
     "date": "2026-04-19",
     "agent": "K4",
+    "historia": "NVIDIA revela: 86% das empresas vão aumentar investimento em IA em 2026, 64% já usam no dia a dia",
+    "fonte": "NVIDIA State of AI Report 2026",
+    "tags": [
+      "IA generativa",
+      "investimento",
+      "relatório",
+      "empresas"
+    ],
+    "roteiro": {
+      "ato1": "Cara, o NVIDIA State of AI 2026 acabou de soltar um número que vai mudar como todo mundo pensa sobre inteligência artificial.",
+      "ato2": "Eles entrevistaram mais de 3 mil empresas no mundo inteiro e descobriram que 86% delas planejam aumentar investimento em IA este ano. Não é tendência. É decisão tomada. Pô, quando a gente fala de adoção de tecnologia, quase nunca tem número tão alto e tão definitivo.",
+      "ato3": "O problema é que muita empresa ainda tá vendo IA como acessório. Algo pra fazer textinho, gerar imagem ou automatizar uma tarefa solta. Enquanto isso, o mercado inteiro tá mudando o paradigma. Porque 64% das empresas já usam IA no dia a dia das operações. Não testando. Não avaliando. Usando. E 88% delas já reportaram aumento de faturamento com essa implementação.",
+      "ato4": "Foi exatamente essa virada que mudou várias operações. Tinha empresa com 37 vendedores, folha entre 90 e 120 mil por mês, e só 20% realmente produtivos. O gargalo não era esforço. Era estrutura pesada, inconsistente e cara demais. Quando agentes de IA entraram pra atender, qualificar e seguir processo, o jogo virou. Não foi demissão. Foi transformação operacional. A máquina passou a assumir repetição com velocidade. O humano ficou no que realmente importa: estratégia, fechamento, relacionamento.",
+      "ato5": "E isso não tá mais no campo da teoria. Já tem mais de 30 clientes usando essa lógica em setores completamente diferentes. Educação, clínica, loja, faculdade, farmácia. O padrão é sempre o mesmo. Resposta mais rápida, atendimento constante, menos dependência de memória humana, mais previsibilidade. Quando o agente entra no fluxo certo, a empresa para de depender de heroísmo diário para funcionar. A IA deixa de ser acessório e vira estrutural. Não é sobre parecer moderno. É sobre tirar peso morto do processo.",
+      "ato6": "Então pergunta séria pro seu negócio: se 86% das empresas estão investindo pesado em IA, onde a sua empresa vai estar daqui de 12 meses? No lado que investe no que funciona ou no lado que fica olhando de fora? Porque a diferença entre quem constrói sistema com agentes e quem fica só no texto bonito está virando diferença de sobrevivência no mercado.",
+      "ato7": "O mercado não vai esperar mais. As empresas que hoje estão investindo pesado em IA operacional vão amanhã ter escala, margem e velocidade que o resto só vai sonhar. A única pergunta que resta é se você quer ser parte dessa revolução ou quer assistir de fora."
+    },
+    "teleprompter": "ATO 1\nCara, o NVIDIA State of AI 2026 acabou de soltar um número que vai mudar como todo mundo pensa sobre inteligência artificial.\n\nATO 2\nEles entrevistaram mais de 3 mil empresas no mundo inteiro e descobriram que 86% delas planejam aumentar investimento em IA este ano. Não é tendência. É decisão tomada. Pô, quando a gente fala de adoção de tecnologia, quase nunca tem número tão alto e tão definitivo.\n\nATO 3\nO problema é que muita empresa ainda tá vendo IA como acessório. Algo pra fazer textinho, gerar imagem ou automatizar uma tarefa solta. Enquanto isso, o mercado inteiro tá mudando o paradigma. Porque 64% das empresas já usam IA no dia a dia das operações. Não testando. Não avaliando. Usando. E 88% delas já reportaram aumento de faturamento com essa implementação.\n\nATO 4\nFoi exatamente essa virada que mudou várias operações. Tinha empresa com 37 vendedores, folha entre 90 e 120 mil por mês, e só 20% realmente produtivos. O gargalo não era esforço. Era estrutura pesada, inconsistente e cara demais. Quando agentes de IA entraram pra atender, qualificar e seguir processo, o jogo virou. Não foi demissão. Foi transformação operacional. A máquina passou a assumir repetição com velocidade. O humano ficou no que realmente importa: estratégia, fechamento, relacionamento.\n\nATO 5\nE isso não tá mais no campo da teoria. Já tem mais de 30 clientes usando essa lógica em setores completamente diferentes. Educação, clínica, loja, faculdade, farmácia. O padrão é sempre o mesmo. Resposta mais rápida, atendimento constante, menos dependência de memória humana, mais previsibilidade. Quando o agente entra no fluxo certo, a empresa para de depender de heroísmo diário para funcionar. A IA deixa de ser acessório e vira estrutural. Não é sobre parecer moderno. É sobre tirar peso morto do processo.\n\nATO 6\nEntão pergunta séria pro seu negócio: se 86% das empresas estão investindo pesado em IA, onde a sua empresa vai estar daqui de 12 meses? No lado que investe no que funciona ou no lado que fica olhando de fora? Porque a diferença entre quem constrói sistema com agentes e quem fica só no texto bonito está virando diferença de sobrevivência no mercado.\n\nATO 7\nO mercado não vai esperar mais. As empresas que hoje estão investindo pesado em IA operacional vão amanhã ter escala, margem e velocidade que o resto só vai sonhar. A única pergunta que resta é se você quer ser parte dessa revolução ou quer assistir de fora.",
+    "metricas": {
+      "totalPalavras": 444,
+      "totalFrases": 32,
+      "mediaFrase": 13.9,
+      "duracaoFinal": "2:15"
+    },
+    "title": "NVIDIA: 86% das empresas apostam pesado em IA operacional",  
+    "duracao": "2:15"
+  },
+  {
+    "date": "2026-04-19",
+    "agent": "K4",
     "title": "De Tênis de US Bi pra IA: O Pivot Mais Louco do Ano",
     "historia": "Allbirds, marca de tênis avaliada em US bi no IPO, vende IP por US9 mi e pivota para GPU-as-a-Service como NewBird AI. Ação dispara 400%.",
     "fonte": "WIRED",
